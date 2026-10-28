@@ -6,7 +6,12 @@ Phase 1 submission: 24 Mehr 1405 (16 October 2026)
 
 The project pursues two goals at the same time: learning how an axial compressor works, and studying what current AI tools can do in a specialised mechanical-engineering task. The use of AI is required by the course brief and is openly declared.
 
-## Deliverables (Phase 1)
+## Current status
+
+* **Phase 2 target machine: Mitsubishi Power M701JAC** (15-stage axial compressor, PR 25, 3000 rpm). Everything for it is in [`m701jac/`](m701jac/): source index, team dossier, assumption audit, dossier review, and the real-gas analysis with uncertainty ranges.
+* The Phase 1 proposal and video below were built around the MAPNA MGT-70(3). They are kept as submitted. Their assumed starting numbers (efficiency, constant c_p, equal stage pressure ratio, inlet velocity and so on) are reviewed in [`m701jac/docs/ASSUMPTIONS_AUDIT.md`](m701jac/docs/ASSUMPTIONS_AUDIT.md).
+
+## Phase 1 deliverables (submitted 24 Mehr 1405, MGT-70(3) target)
 
 | File | What it is |
 |---|---|

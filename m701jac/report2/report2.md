@@ -63,7 +63,7 @@ The working principle and the theory of Report 1 apply unchanged. Only the machi
 
 Table: Table 1. Main data of the M701JAC.
 
-Each stage is a rotor that adds swirl, and therefore work, followed by a stator that removes it. Both rows act as diffusers: the rotor in the relative frame ($W_2<W_1$) and the stator in the absolute frame ($V_3<V_2$). The relations used below are those of Report 1, in the notation of the course:
+Each stage is a rotor that adds swirl, and therefore work, followed by a stator that removes it. Both rows act as diffusers: the rotor in the relative frame ($W_2<W_1$) and the stator in the absolute frame ($V_3<V_2$). The relations used below are those of Report 1:
 
 $$ \frac{T_{02}}{T_{01}}=r_p^{\frac{\gamma-1}{\gamma\,\eta_{pc}}},\qquad \eta_{isc}=\frac{r_p^{(\gamma-1)/\gamma}-1}{r_p^{(\gamma-1)/(\gamma\eta_{pc})}-1} \qquad\qquad (1)$$
 
@@ -77,12 +77,12 @@ $$ \text{de Haller: }\ \frac{W_2}{W_1}\ (\text{rotor}),\ \ \frac{V_3}{V_2}\ (\te
 
 # Assumed values
 
-Every value below is either an ISO or physical standard, a course (class) value, a common-practice value, or a design choice made in this report. **Nothing else enters the calculations.**
+Every value below is either an ISO or physical standard, a common-practice value, or a design choice made in this report. **Nothing else enters the calculations.**
 
 | Quantity | Value | Type | Use / remark |
 |:-------------------------------|:--------------|:-------------|:-----------------------------------------------|
 | Inlet total state $T_{01}$, $p_{01}$ | 288.15 K, 101.325 kPa | ISO standard | Basis of the catalogue rating |
-| Air: $\gamma$, $c_p$, $R$ | 1.4, 1004.5 J/kg·K, 287 J/kg·K | Class value | Perfect gas throughout |
+| Air: $\gamma$, $c_p$, $R$ | 1.4, 1004.5 J/kg·K, 287 J/kg·K | Standard value | Perfect gas throughout |
 | Combustion gas: $\gamma_g$, $c_{pg}$ | 1.333, 1148 J/kg·K | Common practice | Turbine and exhaust in the cycle check only |
 | Fuel lower heating value | 50.0 MJ/kg | Standard (methane) | Fuel and air flows (±4 % LHV changes air flow by ±0.1 %) |
 | Generator + mechanical efficiency | 0.985 | Common practice | Shaft power for the cycle check |
@@ -90,13 +90,13 @@ Every value below is either an ISO or physical standard, a course (class) value,
 | Turbine exit pressure | 1.02 × ambient | Common practice | Exhaust diffuser and duct |
 | Turbine polytropic efficiency $\eta_{pe}$ | 0.90–0.92 | Common practice | Cooled turbine at its practical best; *fixes* $\eta_{pc}$ (Section 5) |
 | Compressor polytropic efficiency $\eta_{pc}$ | **0.86** | Derived (Section 5) | Inside the band 0.84–0.875 implied by the catalogue |
-| Axial velocity $V_a$ | 170 m/s, constant | Design choice | Inlet axial Mach 0.51; class rule of constant $V_a$ |
+| Axial velocity $V_a$ | 170 m/s, constant | Design choice | Inlet axial Mach 0.51; constant through all stages |
 | First-rotor hub-to-tip ratio | 0.50 | Design choice | Typical heavy-duty first stage (0.40–0.55) |
-| Degree of reaction | 0.5 at mean radius, all stages | Class value | Symmetric velocity triangles |
+| Degree of reaction | 0.5 at mean radius, all stages | Design choice | Symmetric velocity triangles |
 | Stage work distribution | equal, or non-uniform (stage 1 = 0.85, stage 15 = 0.80 × mean) | Design choice | Both are calculated (Section 8) |
 | Annulus shape | constant mean or constant tip diameter | Design choice | Both are calculated (Section 8) |
 | Radial whirl distribution | free vortex ($V_w r$ = const) | Common practice | Tip relative Mach number only |
-| de Haller limits | 0.75 / 0.70 | Class value | Equation (5) |
+| de Haller limits | 0.75 / 0.70 | Common practice | Equation (5) |
 | Blade density, taper factor | 7800 kg/m³, 0.6 | Common practice | Stage-1 root stress only |
 
 Table: Table 2. All assumed values used in this report.
@@ -111,7 +111,7 @@ The compressor must therefore deliver **744.6 kg/s at a total-pressure ratio of 
 
 # Cycle and compressor efficiency
 
-The cycle is evaluated with the course method:
+The cycle is evaluated as follows:
 
 $$ T_{02}=T_{01}\,r_p^{\frac{\gamma-1}{\gamma\eta_{pc}}},\qquad \dot W_C=\dot m_a c_p(T_{02}-T_{01}),\qquad \dot m_{g}c_{pg}(T_{03}-T_{01})=\dot m_a c_p(T_{02}-T_{01})+\dot Q \qquad\qquad (7)$$
 
@@ -136,7 +136,7 @@ A turbine has few stages, accelerating flow and no stall, so its efficiency is c
 
 **Compressor result:** delivery temperature $T_{02}$ = **839.6 K (566 °C)**, isentropic efficiency **0.788**, shaft power **412 MW**. The compressor absorbs **48 %** of the turbine work.
 
-*Note.* With temperature-dependent $c_p$ (real gas), $T_{02}$ is 811 K instead of 840 K, while the work changes by less than 1 %. The perfect-gas values are kept for consistency with the course method.
+*Note.* With temperature-dependent $c_p$ (real gas), $T_{02}$ is 811 K instead of 840 K, while the work changes by less than 1 %. The perfect-gas values are kept throughout this report.
 
 # Mean-line sizing
 
@@ -172,7 +172,7 @@ Table: Table 4. Stage 1 at mean radius (design case D).
 Two results stand out:
 
 * **The tip is transonic** ($M_{rel}$ = 1.16 at the tip, 0.81 at mean radius). This is why MHI uses three-dimensional design to reduce shock losses in the initial stages [D6]. It is also why the first stage cannot carry full load.
-* **The de Haller number of 0.742 lies in the heavy-loading band** (0.70–0.75). Under the course criterion such a stage needs advanced blade design. This agrees with the published description of a high-loading, boundary-layer-controlled compressor [D7, D8].
+* **The de Haller number of 0.742 lies in the heavy-loading band** (0.70–0.75). Such a stage needs advanced blade design. This agrees with the published description of a high-loading, boundary-layer-controlled compressor [D7, D8].
 
 # Stage-by-stage design: four ways
 
@@ -251,7 +251,7 @@ Table: Table 7. Summary of the redesign.
 
 # Use of AI
 
-All calculations in this report were coded and run by Claude (Anthropic) under the team's direction. The method follows the course notes. Every assumed value is listed in Table 2 and was reviewed by the team. The AI also checked the catalogue data for consistency and compared the perfect-gas results with a real-gas calculation (Section 5 note).
+All calculations in this report were coded and run by Claude (Anthropic) under the team's direction. Every assumed value is listed in Table 2 and was reviewed by the team. The AI also checked the catalogue data for consistency and compared the perfect-gas results with a real-gas calculation (Section 5 note).
 
 # References {.unnumbered}
 

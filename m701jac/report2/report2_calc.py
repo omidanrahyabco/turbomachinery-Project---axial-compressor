@@ -185,9 +185,8 @@ arrow(0, 0, -(U_ - w2), -Va_, ORG, f'$W_2$={s["W2"]:.0f}', (-34, 6))
 ax.plot([-(U_ - w1), w1], [-Va_, -Va_], color=GRY, lw=1)
 ax.text((w1 - (U_ - w1)) / 2, -Va_ - 14, f'U = {U_:.1f} m/s', ha='center', color=GRY)
 ax.plot([w1, w2], [-Va_ - 30, -Va_ - 30], color=RED, lw=1.5); ax.plot([w1, w1], [-Va_, -Va_ - 34], ':', color=RED, lw=0.8); ax.plot([w2, w2], [-Va_, -Va_ - 34], ':', color=RED, lw=0.8); ax.text((w1 + w2) / 2, -Va_ - 42, f'ΔV$_w$ = {s["dVw"]:.1f}', ha='center', color=RED, fontsize=8.5)
-ax.plot([0, 0], [0, -Va_], ':', color=GRY); ax.text(0, 10, f'$V_a$ = {Va_:.0f} m/s (axial)', color=GRY, fontsize=8.5, ha='center')
+ax.plot([0, 0], [0, -Va_], ':', color=GRY); ax.text(6, -Va_ * 0.62, f'$V_a$ = {Va_:.0f}', color=GRY, fontsize=8.5, ha='left', bbox=dict(fc='white', ec='none', pad=1))
 ax.set_aspect('equal'); ax.axis('off')
-ax.set_title(f'Stage 1, mean radius (design case D): α₁=β₂={s["alpha1"]:.1f}°, α₂=β₁={s["alpha2"]:.1f}°, de Haller {s["deHaller_R"]:.3f}', fontsize=9, color=NAVY)
 fig.tight_layout(); fig.savefig(os.path.join(HERE, 'fig1_triangles.png')); plt.close(fig)
 # Fig 2: four cases - de Haller and stage pressure ratio
 fig, axs = plt.subplots(1, 2, figsize=(9.2, 3.3))
@@ -216,3 +215,49 @@ fig.tight_layout(); fig.savefig(os.path.join(HERE, 'fig3_annulus.png')); plt.clo
 print('case D table')
 for x in marches['D']:
     print(f"{x['stage']:2d} f={x['f']:.3f} dT0={x['dT0']:.2f} pi={x['pi_st']:.3f} p0out={x['p0in']*x['pi_st']/1e5:.2f} Dm={x['Dm']:.3f} h={x['h']*1000:.0f}mm U={x['U']:.1f} psi={x['psi']:.3f} phi={x['phi']:.3f} a1={x['alpha1']:.1f} a2={x['alpha2']:.1f} Mrt={x['M_rel_t']:.3f} Mrm={x['M_rel_m']:.3f} dH={min(x['deHaller_R'],x['deHaller_S']):.3f} T0out={x['T0in']+x['dT0']:.1f}")
+
+# ------------------------------------------------------------------ T-s diagram: inlet and outlet, stagnation and static
+T01, p01 = A['T01'], A['p01']
+T02 = base['T2']; p02 = p01 * CAT['PR']
+T1s_, p1s_ = T1s, p1s                                   # inlet static (IGV inlet, axial V_a)
+T2s_ = T02 - Va ** 2 / (2 * cp); p2s_ = p02 * (T2s_ / T02) ** (1 / k)   # outlet static (axial exit, V_a)
+s02 = cp * math.log(T02 / T01) - R * math.log(p02 / p01)
+T02is = T01 * CAT['PR'] ** k
+TS = dict(T01=T01, p01=p01, T1=T1s_, p1=p1s_, T02=T02, p02=p02, T2=T2s_, p2=p2s_, s02=s02, T02s=T02is)
+def iso(p, sv): return T01 * np.exp((sv + R * np.log(p / p01)) / cp)
+fig, ax = plt.subplots(figsize=(7.2, 4.8))
+sv = np.linspace(-40, 155, 300)
+for pp, lab, c, ls in ((p01, '$p_{01}$ = 101.3 kPa', NAVY, '-'), (p1s_, f'$p_1$ = {p1s_/1e3:.1f} kPa', GRY, '--'),
+                       (p02, f'$p_{{02}}$ = {p02/1e3:.0f} kPa', NAVY, '-'), (p2s_, f'$p_2$ = {p2s_/1e3:.0f} kPa', GRY, '--')):
+    ax.plot(sv, iso(pp, sv), ls, color=c, lw=1.2)
+    ax.text(sv[-1] + 2, iso(pp, sv[-1]), lab.split(' =')[0], fontsize=8, color=c, va='center')
+lnp = np.linspace(0, math.log(CAT['PR']), 60)
+ax.plot(R * (1 / ETA_PC - 1) * lnp, T01 * np.exp(lnp * k / ETA_PC), color=ORG, lw=2.2, label='actual compression ($\\eta_{pc}$ = 0.86)')
+ax.plot([0, 0], [T01, T02is], ':', color=GRN, lw=1.6, label='isentropic compression')
+pts = [(0, T01, '01', NAVY), (0, T1s_, '1', GRY), (s02, T02, '02', NAVY), (s02, T2s_, '2', GRY), (0, T02is, '02s', GRN)]
+for x, y, l, c in pts:
+    ax.plot(x, y, 'o', color=c, ms=5, zorder=5)
+ax.annotate('02s', (0, T02is), xytext=(-30, 4), textcoords='offset points', fontsize=10, color=GRN, weight='bold')
+ax.annotate('inlet', (0, T01), xytext=(-38, 10), textcoords='offset points', fontsize=9, color=NAVY)
+ax.annotate('outlet', (s02, T02), xytext=(-46, 6), textcoords='offset points', fontsize=9, color=NAVY)
+def zoom(rect, xl, yl, title):
+    ia = ax.inset_axes(rect)
+    sz = np.linspace(xl[0], xl[1], 50)
+    for pp, c, ls, nm in ((p01, NAVY, '-', '$p_{01}$'), (p1s_, GRY, '--', '$p_1$'), (p02, NAVY, '-', '$p_{02}$'), (p2s_, GRY, '--', '$p_2$')):
+        ia.plot(sz, iso(pp, sz), ls, color=c, lw=1)
+        ye = iso(pp, sz[-1])
+        if yl[0] < ye < yl[1]:
+            ia.text(xl[1] + (xl[1] - xl[0]) * 0.02, ye, f'{nm} = {pp/1e3:.1f} kPa', fontsize=7, color=c, va='center')
+    ia.plot(R * (1 / ETA_PC - 1) * lnp, T01 * np.exp(lnp * k / ETA_PC), color=ORG, lw=1.8)
+    for x, y, l, c in pts[:4]:
+        ia.plot(x, y, 'o', color=c, ms=5, zorder=5); ia.annotate(l, (x, y), xytext=(5, 2), textcoords='offset points', fontsize=9, color=c, weight='bold')
+    ia.set_xlim(*xl); ia.set_ylim(*yl); ia.tick_params(labelsize=7); ia.set_title(title, fontsize=8, color=GRY)
+    return ia
+zi = zoom([0.64, 0.14, 0.22, 0.25], (-8, 20), (266, 296), 'inlet (zoom)')
+zi.annotate('', xy=(12, T1s_), xytext=(12, T01), arrowprops=dict(arrowstyle='<->', color=RED, lw=1))
+zo = zoom([0.64, 0.52, 0.22, 0.25], (140, 162), (818, 852), 'outlet (zoom)')
+zo.annotate('', xy=(156, T2s_), xytext=(156, T02), arrowprops=dict(arrowstyle='<->', color=RED, lw=1))
+ax.set_xlabel('entropy  $s - s_{01}$  [J/kg·K]'); ax.set_ylabel('temperature  T  [K]')
+ax.set_xlim(-45, 300); ax.set_ylim(240, 900); ax.legend(fontsize=8, frameon=False, loc='upper left')
+fig.tight_layout(); fig.savefig(os.path.join(HERE, 'fig0_ts.png')); plt.close(fig)
+print('TS', {kk: round(v, 2) for kk, v in TS.items()})

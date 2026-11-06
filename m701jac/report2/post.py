@@ -46,6 +46,7 @@ body=d.element.body
 for p in d.paragraphs:
     if p.style.name in ('Captioned Figure','Figure'):
         p.paragraph_format.keep_with_next=True
+        p.paragraph_format.space_before=Pt(12)
 # cached table of contents (Word refreshes it on open because of updateFields)
 import json
 if tocf:

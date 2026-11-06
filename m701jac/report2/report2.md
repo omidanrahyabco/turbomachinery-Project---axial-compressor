@@ -115,7 +115,7 @@ The cycle is evaluated as follows:
 
 $$ T_{02}=T_{01}\,r_p^{\frac{\gamma-1}{\gamma\eta_{pc}}},\qquad \dot W_C=\dot m_a c_p(T_{02}-T_{01}),\qquad \dot m_{g}c_{pg}(T_{03}-T_{01})=\dot m_a c_p(T_{02}-T_{01})+\dot Q \qquad\qquad (7)$$
 
-$$ \frac{T_{03}}{T_{04}}=\left(\frac{p_{03}}{p_{04}}\right)^{\frac{\gamma_g-1}{\gamma_g}\eta_{pe}},\qquad T_{04}=663\ ^\circ\text{C},\qquad \frac{p_{03}}{p_{04}}=\frac{25\times0.96}{1.02}=23.53 \qquad\qquad (8)$$
+$$ \frac{T_{03}}{T_{04}}=\left(\frac{p_{03}}{p_{04}}\right)^{\frac{\gamma_g-1}{\gamma_g}\eta_{pe}},\qquad T_{04}=936.15\ \text{K},\qquad \frac{p_{03}}{p_{04}}=\frac{25\times0.96}{1.02}=23.53 \qquad\qquad (8)$$
 
 $T_{03}$ is the equivalent mixed turbine-inlet temperature, with the cooling air included. For any assumed compressor efficiency, equation (7) gives $T_{02}$ and $T_{03}$, and equation (8) then gives the turbine efficiency that the catalogue exhaust temperature requires:
 
@@ -136,7 +136,47 @@ A turbine has few stages, accelerating flow and no stall, so its efficiency is c
 
 **Compressor result:** delivery temperature $T_{02}$ = **839.6 K (566 °C)**, isentropic efficiency **0.788**, shaft power **412 MW**. The compressor absorbs **48 %** of the turbine work.
 
-*Note.* With temperature-dependent $c_p$ (real gas), $T_{02}$ is 811 K instead of 840 K, while the work changes by less than 1 %. The perfect-gas values are kept throughout this report.
+**Inlet and outlet states.** Figure 1 shows the whole compression on the T–s diagram with its four end states:
+
+* inlet stagnation state 01: 288.15 K, 101.3 kPa;
+* inlet static state 1, at the IGV inlet: 273.8 K, 84.7 kPa;
+* outlet stagnation state 02: 839.6 K, 2533 kPa;
+* outlet static state 2, at the compressor exit: 825.2 K, 2384 kPa.
+
+Each static state lies $V_a^2/2c_p$ = 14.4 K below its stagnation state, at the same entropy. The entropy rise $s_{02}-s_{01}=c_p\ln(T_{02}/T_{01})-R\ln(p_{02}/p_{01})$ = 150.4 J/kg·K measures the losses. The isentropic end state 02s (722.8 K) would need 436.6 kJ/kg instead of 553.9 kJ/kg.
+
+![Figure 1. T–s diagram of the whole compressor: inlet and outlet stagnation states (01, 02) and static states (1, 2), with the isentropic end state 02s. Each static state lies 14.4 K below its stagnation state (zoomed panels).](fig0_ts.png){width=92%}
+
+**Real-gas check of the delivery temperature.** With constant $c_p$ ($\gamma$ = 1.4) the delivery temperature is 839.6 K. Repeating the compression with temperature-dependent properties of humid ISO air (Cantera, GRI-Mech 3.0 data) gives 811.4 K, about 28 K lower. Table 4 separates the effects.
+
+| | Constant c_p (γ = 1.4) | Variable c_p, dry air | Variable c_p, humid ISO air |
+|:-----------------------------|:-----:|:-----:|:-----:|
+| $c_p$ at inlet / outlet [J/kg·K] | 1004.5 / 1004.5 | 1002.3 / 1100.9 | 1007.7 / 1107.2 |
+| $\gamma$ at inlet / outlet | 1.400 / 1.400 | 1.401 / 1.353 | 1.401 / 1.352 |
+| Isentropic end temperature $T_{02s}$ [K] | 722.8 | 707.8 | 706.7 |
+| Delivery temperature $T_{02}$ [K] | **839.6** | 812.8 | **811.4** |
+| Work $\Delta h_0$ [kJ/kg] | 553.9 | 547.9 | 549.4 |
+| Isentropic efficiency | 0.788 | 0.792 | 0.792 |
+| Effective constant $\gamma$ giving the same $T_{02}$ | 1.400 | 1.383 | 1.382 |
+
+Table: Table 4. Delivery temperature with constant and with temperature-dependent properties ($\eta_{pc}$ = 0.86, $r_p$ = 25).
+
+The difference comes almost entirely from $c_p$; humidity accounts for only 1.4 K. For variable $c_p$ the polytropic relation reads
+
+$$ \int_{T_{01}}^{T_{02}}\frac{c_p(T)}{T}\,dT=\frac{R}{\eta_{pc}}\ln r_p \qquad\qquad (9)$$
+
+The right-hand side depends only on the pressure ratio and the efficiency. Between inlet and outlet $c_p$ rises by 10 % (1008 → 1107 J/kg·K) and $\gamma$ falls from 1.40 to 1.35. A larger $c_p$ makes the left-hand side grow faster with temperature, so the same value is reached at a lower $T_{02}$. In the constant-$\gamma$ formula this appears as a smaller exponent $(\gamma-1)/(\gamma\eta_{pc})$: an effective $\gamma$ of 1.382 reproduces the real-gas result. The work, by contrast, hardly changes. Along a polytropic path $dh=v\,dp/\eta_{pc}$, so
+
+$$ \Delta h_0=\frac{R}{\eta_{pc}}\int T\,d(\ln p) \qquad\qquad (10)$$
+
+This depends on the temperature along the path, which is only slightly lower. The 5 % smaller temperature rise is offset by a 4.5 % higher mean $c_p$, so the work falls by only 0.8 % (553.9 → 549.4 kJ/kg).
+
+**Consequences.** Work, power, velocity triangles and de Haller numbers are essentially unchanged. Quantities that depend directly on temperature are affected:
+
+* the delivery air is 28 K cooler, which matters for the turbine cooling air and for the combustor temperature rise;
+* the exit density is about 3.5 % higher, so the last-stage blade height becomes about 59 mm instead of 61 mm.
+
+Perfect-gas values are kept in the rest of the report; the real-gas delivery temperature is also listed in Table 8.
 
 # Mean-line sizing
 
@@ -148,7 +188,7 @@ With a hub-to-tip ratio of 0.50: $D_t$ = 2.626 m, $D_h$ = 1.313 m, $D_m$ = 1.970
 
 **Loading.** The total work is $\Delta h_0=c_p(T_{02}-T_{01})$ = 553.9 kJ/kg, which is **36.93 kJ/kg per stage** on average. With a constant mean diameter of 1.970 m, $U_m=\pi D_mN/60$ = 309.4 m/s, $\phi$ = 0.549 and
 
-$$ \frac{\Delta h_0}{U^2}\Big|_{total}=\frac{553.9\times10^3}{309.4^2}=5.786,\qquad \frac{\Delta h_0}{U^2}\Big|_{stage}=\frac{5.786}{15}=0.386,\qquad \Delta V_w=\frac{36.93\times10^3}{309.4}=119.3\ \text{m/s} $$
+$$ \psi_{total}=\frac{\Delta h_0}{U_m^2}=\frac{553.9\times10^3}{309.4^2}=5.786,\qquad \psi_{stage}=\frac{5.786}{15}=0.386,\qquad \Delta V_w=\frac{36.93\times10^3}{309.4}=119.3\ \text{m/s} $$
 
 A stage-loading coefficient of 0.386 is high for an industrial compressor. It confirms the "high-load" character of this machine [D3].
 
@@ -165,9 +205,9 @@ The design case selected in Section 8 has a constant tip diameter, which puts th
 | $M_{rel}$ at mean radius | 0.806 | $M_{rel}$ at tip (free vortex) | **1.157** |
 | de Haller, rotor = stator | **0.742** | Stage pressure ratio | 1.365 |
 
-Table: Table 4. Stage 1 at mean radius (design case D).
+Table: Table 5. Stage 1 at mean radius (design case D).
 
-![Figure 1. Stage-1 velocity triangles at mean radius (design case D).](fig1_triangles.png){width=78%}
+![Figure 2. Stage-1 velocity triangles at mean radius (design case D).](fig1_triangles.png){width=78%}
 
 Two results stand out:
 
@@ -185,9 +225,9 @@ The split of work between stages and the shape of the annulus are design decisio
 | C | equal | constant D_t = 2.626 m | 0.401 | 0.708 (1) | 1.435 / 1.144 | 696 / 62 mm | 1.171 |
 | **D** | **non-uniform** | **constant D_t** | **0.346** | **0.732 (2)** | **1.365 / 1.114** | **703 / 61 mm** | **1.157** |
 
-Table: Table 5. Design variants: work distribution and annulus shape.
+Table: Table 6. Design variants: work distribution and annulus shape.
 
-![Figure 2. de Haller number and stage pressure ratio for the four cases.](fig2_cases.png){width=100%}
+![Figure 3. de Haller number and stage pressure ratio for the four cases.](fig2_cases.png){width=100%}
 
 **What the comparison shows:**
 
@@ -196,7 +236,7 @@ Table: Table 5. Design variants: work distribution and annulus shape.
 * **A constant tip diameter makes the non-uniform distribution work** (case D). The hub rises, so the mean radius and the blade speed grow from 302 to 403 m/s along the machine. The middle and rear stages can then take more work at a *lower* loading coefficient. The first two stages stay limited by the transonic tip and remain the most heavily loaded aerodynamically.
 * **Case D is adopted as the redesign:** minimum de Haller 0.732, no stage below 0.70, and a loading that falls smoothly from 0.35 to 0.18.
 
-![Figure 3. Hub, mean and tip radii along the compressor for constant mean diameter (A) and constant tip diameter (D).](fig3_annulus.png){width=88%}
+![Figure 4. Hub, mean and tip radii along the compressor for constant mean diameter (A) and constant tip diameter (D).](fig3_annulus.png){width=88%}
 
 | Stage | f | ΔT₀ [K] | Stage PR | p₀ out [bar] | T₀ out [K] | D_m [m] | h [mm] | U [m/s] | φ | ψ | α₁/α₂ [°] | M tip | dH |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:-------:|:--:|:--:|
@@ -216,7 +256,7 @@ Table: Table 5. Design variants: work distribution and annulus shape.
 | 14 | 0.930 | 34.2 | 1.139 | 22.74 | 810.0 | 2.560 | 66 | 402.1 | 0.423 | 0.212 | 43.0/55.1 | 0.564 | 0.782 |
 | 15 | 0.804 | 29.6 | 1.114 | 25.33 | 839.6 | 2.566 | 61 | 403.0 | 0.422 | 0.183 | 44.1/54.5 | 0.542 | 0.808 |
 
-Table: Table 6. The redesigned compressor, stage by stage (case D, rotor-inlet values at mean radius; f = stage work / mean stage work; M tip = relative Mach number at the blade tip; dH = de Haller number).
+Table: Table 7. The redesigned compressor, stage by stage (case D, rotor-inlet values at mean radius; f = stage work / mean stage work; M tip = relative Mach number at the blade tip; dH = de Haller number).
 
 # Mechanical note
 
@@ -228,7 +268,7 @@ The first rotor carries the largest centrifugal load because it has the largest 
 |:--------------------------------|:-------------------|:--------------------|
 | Air mass flow | 744.6 kg/s | 765 kg/s exhaust − fuel |
 | Total pressure ratio | 25.0 (15 stages) | 25 |
-| Delivery temperature | 839.6 K (566 °C) | — |
+| Delivery temperature | 839.6 K (566 °C); 811 K with variable c_p | — |
 | Compressor power / share of turbine work | 412 MW / 48 % | — |
 | Polytropic / isentropic efficiency | 0.86 / 0.788 | — |
 | Equivalent turbine inlet temperature | 1644 °C | 1650 °C class |
@@ -237,7 +277,7 @@ The first rotor carries the largest centrifugal load because it has the largest 
 | Blade height, first → last | 703 → 61 mm | reduced outlet area |
 | Lowest de Haller number | 0.732 (stage 2) | high-load design |
 
-Table: Table 7. Summary of the redesign.
+Table: Table 8. Summary of the redesign.
 
 **Conclusions:**
 
@@ -251,7 +291,7 @@ Table: Table 7. Summary of the redesign.
 
 # Use of AI
 
-All calculations in this report were coded and run by Claude (Anthropic) under the team's direction. Every assumed value is listed in Table 2 and was reviewed by the team. The AI also checked the catalogue data for consistency and compared the perfect-gas results with a real-gas calculation (Section 5 note).
+All calculations in this report were coded and run by Claude (Anthropic) under the team's direction. Every assumed value is listed in Table 2 and was reviewed by the team. The AI also checked the catalogue data for consistency and compared the perfect-gas results with a real-gas calculation (Section 5).
 
 # References {.unnumbered}
 

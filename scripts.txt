@@ -1,0 +1,545 @@
+I am going to paste transcripts here from the youtube videos . we are going to learn turbomachinery , most specificly the source of exam is korpella , chapter 2 , 3 , 5 , 8 . axial compresorrs and basics of turbomachinery . here is the transcript of videos : 
+
+00:00:03
+ [موسیقی] سلام بحث راندمان پولوپیکی رو من در ترمودنامیک و در بحث قانون دوم ترمودنامیک براتون مطرح کردم و در اونجا ما صحبتمون این بود که تحولات یا ایزوترم هستند که خط افقی رو نشون میدن یا تصولات آیزنتروپیک هستند خط عمودی هستن مثل این تحول ۱ دو پریم و یا اینکه تحولات پولیروپیک هستن که اونوقت یه خط مور هستن حالا یا مثلاً مثل این تحول یا مثل تحولی که در این جهت باشه و بعد اومدم و نقش راندمان پولتروپیکی رو در بحث توربین‌ها معرفی کردم توجه کنید که این یه بحث ترمودنامیکیه که البته کاربرد بسیار مهمی در تور ماشین‌ها هم داره کاری که من در
+
+00:00:57
+ این جلسه میخوام انجام بدم براتون اینه که نحوه ورود ران پولتروپیکی رو به تحول تراکمی خدمتتون معرفی بکنم. اونچه که در این شکل ملاحظه می‌فرمایید یک دونه تحول تراکمی هست که از یک به دو اتفاق میفته. این تحول واقعیه و اون تحول ایدآلی که می‌تونست اتفاق بیفته یک دو پریم هست. توجه کنید من دقت می‌کنم استفاده از تحول تراکمی چون یه بحث ترمودنامیکی هست درسته که کمپرسور اون دستگاهیه که این تحول درش اتفاق میفته ولی فعلاً چون این بحث ترس ترمودینامیکی هست من همین به عبارت تحور تراکمی اکتفا می‌کنم توجه کنید بعداً مسئله
+
+00:01:46
+ سرعت وارد میشه مسئله شرایط سکون وارد میشه و ما یکی مسائل پیش نمیشه وقتی ما داریم داریم در مورد یک کمپرسور صحبت می‌کنیم که یک دستگاهه ولی در حدی که داریم در مورد تحول ترکمی صحبت می‌کنیم وقت یه بحث ترمودینامیکی میشه بنابراین اونچه که ما اینجا داریم اینه که یه تحولی داریم از ی تا د که تحول ایدآلشم ی تا دو پریم هستش اما کاری که می‌کنیم اینه که میایم یه تحول کوچیکی انتخاب می‌کنیم از یه فشاری مثل پی توجه کنید که فشار پی متفاوته از اون چیزی که ما اینجا داریم اگه این فشار پی ۱ باشه و این فشار پی باشه فشار پی اینجاست و پی بعلاوه دی پی
+
+00:02:31
+ این فشاریه که یه کمی فاصله داره من خیلی بزرگتر کشیدم برای اینکه واضح باشه و اونوقت در این تحول تراکمی که بخشی از تحول تراکمی یک دو ما هست تحول ایدآلی که اتفاق میفته دلتا تی پریم خواهد بود و تحول واقعی که اتفاق میفته دی تی خواهد بود من همونجور که خدمتتون گفتم این رسم خود منه که اون تحولات ایدآل رو با پریم نشون میدم و تحولات واقعی رو با تی نشون میدم توجه کنید که این دی تی پریم با اونچه که بین این دو تا فشار اتفاق میفتاد اگه تحول آیزنتروپیک بود اون متفاوته چون خروط فشار ثابت واگرا هستن و به همین دلیل
+
+00:03:12
+ کمی از هم دور میشن پس هرچی ما جلوتر میریم در حقیقت اون تحول ایدآلمون با این تحولی که اینجا داریم داریم در نظر می‌گیریم بین همون دو تا فشار متفاوت خواهد بود. خب راندمان این تحول پلیتروپیک اگه بخوایم بنویسیم می‌تونیم بنویسیم اتای پلیتروپیک تحول تراکم مساوی هستش با دی تی پریم تقسیم بر دی تی و حالا میتونیم این تحول رو تقسیم بر این رابطه رو تقسیم بر تی کنیم و بنابراین بنویسیم که ا پولتروپیک تراکم در دی تی به تی این مساوی خواهد بود با دی تی پریم بعلاوه تی و منهای تی تقسیم بر تی و حالا اگر این رو سمت راستش رو تقسیم بر تی بکنیم در صورت
+
+00:04:10
+ خواهیم داشت دی تی پریم بعلاوه تی تقسیم بر تی منهای ی و توجه میفرمایید که این دی تی پریم بعلاوه تی یعنی این نقطه نقطه چون این نقطه تی هستش دی تی پریم بعلاوه تی میشه این نقطه و حالا این تحول آیزنتروپیک رو ما داریم که میتونیم اینو بر حسب نسبت فشار بنویسیم و این مساوی خواهد بود با پی بعلاوه دی پی تقسیم بر پی به توان منهای ی تقسیم بر گاما و منهای ی و حالا می‌تونیم این جمله رو که این هست یک بعلاوه دی پی به پی یه بحث بایانومیال بدیم که یه خورده تغییر میکنه و در نتیجه اتای پولتروپیک تراکم در دی تی تقسیم بر تی
+
+00:05:15
+ مساوی خواهد بود با ی بعلاوه دی پی تقسیم بر پی به توان منهای منهای ی تقسیم بر گاما و منهای ی و بعد از اینکه بستش بدیم این جمله رو و جمله‌های کوچیک‌تر روانا دو ای دی پی رو حذف کنیم این مساوی خواهد بود با ی بعلاوه گاما منهای ی تقسیم بر گاما در دی پی تقسیم بر پی منهای ی که این د تا جمله با همدیگه د تا یکا با همدیگه حذف میشن و کاری که ما می‌تونیم بکنیم الان این هستش که این دی پی رو یه طرف قرار بدیم دی پی به پی این دی تی به تی رو هم یه طرف قرار بدیم این پولوتروپیک رو هم در کنار این به صورت توان دریم و این کمکمون خواهد
+
+00:06:10
+ کرد که بتونیم انتگرال گری رو انجام بدیم بنابراین دی تی تی مساوی خواهد بود با گاما منهای ی تقسیم بر گاما اتایپول شو بگیریم تراکم ضربدر دی پی به پی و نکته‌ای که باید اینجا توجه کنیم بهش اینه که در زمانی که ما در مورد انبساط داشتیم صحبت می‌کردیم که در توربینها بحث توربین‌ها این موضوع مطرح میشد اونجا این ران پتروپیکی حاصل ضرب این کسر بود اما اینجا در مخرج کسر قرار می‌گیره که اگر از این رابطه انتگرالگیری کنیم در اون صورت خواهیم داشت که تی د به تی ۱ مساوی خواهد بود با پی د به پی ۱ به توان گاما منهای ی تقسیم بر گاما اتای
+
+00:07:01
+ پولیروپیک توجه می‌کنید که یه ال ان هم داشتیم اون وسط که اون ال ان رو دیگه من برداشتم دیگه اون جزئیاتشو خودتون خوب می‌تونید انجام بدید خب بنابراین ما الان می‌دونیم که اگر از این مسیر نقطه چین بخوایم حرکت کنیم تی ۲ و تی ۱ از این رابطه هستن و اگه از این مسیر آز بخوایم حرکت کنیم اونوقت مشابه همین رات هست ولی دیگه این پولتروپیکش یک خواهد بود بنابراین ما اگر بخوایم راندمان تراکم رو بنویسیم بین یک و دو راندمان تراکم اینو می‌نویسیم راندمان سی که پولروپیک نیست و این راندمان توضیحشو می‌نویسم که راندمان تراکم بین یک و د هستش خب در مورد تراکم
+
+00:07:46
+ راندمان همیشه هستش کار ایدآل و کار واقعی چون داریم کار میدیم بنابراین ایآلمون اینه که کمتر کار بدیم بنابراین میشه سی پی صفر در تی دو پریم منهای تی ۱ این تحول ایدآلمونه و تحول واقعیمون از سی پی صفر در تی د منهای تی ۱ در حقیقت ا د منهای ا ۱ و ا د پری منهای ا ۱ خواهیم داشت که این مساوی خواهد بود با سی پی صفرشو حذف میکنیم از یه تی یک فاکتور طور می‌گیریم میشه تی دو پریم به تی ۱ منهای ی تقسیم بر تی د به تی ۱ منهای ی بنابراین من یه سی پی صفر تی ۱و از صورت مخرج حذف کرد که [صدای خرناس] این خواهد بود مساوی با به
+
+00:08:42
+ جای این تحول که تحول آیزنتوپیکی هست می‌تونم بنویسم من پی د به پی ۱ به توان گاما منها ی تقسیم برای گاما و به جای این تحوال که تحوال واقعی هست می‌تونم از اینجا رابطه بنویسم که میشه پی د به پی ۱ به توان گام ۱ تقسیم بر گامایت پلشوپی منهای ی خب این نقشیه که راندان پولشوپی بازی می‌کنه این نقش بسیار مهمه همونجور که در بحث دوربینا دیدید نسبت فشار هرچی باشه یا شرایط هرچی باشه این راندما پولتروپیک تابع تکنولوژی هست و بنابراین مهم نیست که دستگاهمون چند مرحله باشه نسبت فشارش چی باشه راندمان پولتروپیک تابع تکنولوژی هستش ورا این عدد ثابت
+
+00:09:30
+ می‌مونه در اون ثابتیه که در حقیق در بسیاری توربین‌ها یا کمپرسورها اگر یه کارخونه‌ای مثلاً می‌سازه یه جایی می‌سازه این عدد اون عدد ثابتش هست و به همین دلیل بود که من در اون قسمت که حالا بعداً بیشتر دربارش صحبت خواهیم کرد در قسمت موتور توربین گازی که ام جیتی ۷۰ ویرایش ۴ بود تو بخش توبین‌های محوری من اومدم و از این رابطه استفاده کردم تا راندمان کمپرسور بتونم تخمین بزنم و برای این اون توربین گازی بود که ما بررسی کردیم یه توربین گاز مبنا با ۱۶ مرحله کمپرسور و چار مرحله توربین هستش و توجه می‌کنید که مراحل مختلف هستن
+
+00:10:19
+ اما اون راندمانی که برای همشون بتونیم استفاده کنیم معمولاً در تحلیل اولیه راندمان پلیتروپیکی هستش د تا اطلاع داشتیم در مورد این توربین یکی می‌دونستیم که پی د پی ۱ مساوی با ۱۲ و یک دهم و همچنین می‌دونستیم که راندمان پلروپیک کمپرسور مساوی هستش با صف ۸۶ ۸۶ هست بنابراین اگر این د تا مقداررو ما در این رابطه قرار بدیم. در آن صورت راندمان کمپرسورمون راندمان این کمپرسوری که ما اینجا حالا داریم راندمان کل کمپرسور اونوقت متفاوت خواهد بود از راندمان پولتروپیکیش که این مساوی میشه با ۱۲ و ۱ده به توان. ۲۸۶ منهای ۱ تقسیم بر ۱۲ و۱ده به توان. ۲۸۶
+
+00:11:21
+ تقسیم بر.۸۶ منهای ی که این در نتیجه می‌گیریم که راندمان کمپرسور این مساوی میشه با.۸صد۶. این نکته مهمه که در ت پدیده تراکم راندمان کمتر از راندمان پلوچوپیکی راندمان مرحله از راندمان پولتروپیکی کمتر هست دلیلشم خیلی ساده میتونیم اینجا ببینیم دلیلش اینه که خطوط فشار ثابت واگرا هستند یعنی این خط بزرگتر از معادلش روی این خط هستش خب ما وقتی راندمان ان کل رو می‌نویسیم. یعنی ما وقتی داریم این راندمان رو می‌نویسیم یا این راندمان رو می‌نویسیم تحول ایدآلمون چی هستش؟ تحول ایدآلمالمون یک دو پریم هستش. اما وقتی
+
+00:12:17
+ این راندمانی پلیتروپیکی رو می‌نویسیم تحولای ایدآلمون یه تحولات دیگری هستن. بین همون خطوط فشار ثابت هستن. بین همون د تا خطا هستن که قدم به قدم رفتیم. اما تحولات دیگری هستن. حالا کدومشون بزرگ‌ترن؟ طبیعیه که چون خطوط فشار ثابت هستم دور میشن بنابراین این خطوط جمعشون بزرگتر از این خطه پس وقتی که ما داریم راندمان کلی رو می‌گیریم ایدآلمالمونو کوچیک گرفتیم واقعیتش فرقی نمی‌کنه ولی وقتی ما داریم راندمان کلی رو می‌گیریم ایدآلمونو کم گرفتیم خب بنابراین راندمانمون بدتر میشه چون کار واقعیمون که ثابته ولی ایدآلمون این بود که خیلی کار
+
+00:13:03
+ کمی بهش بدیم حالا این مقدار کار دادیم بد به نظر میاد اما وقتی که راندما پلتروپیکی رو داریم میگیم چون ایدآل های بزرگتری در نظر داشتیم بنابراین این کاری که تو یک دو دادیم براش بهتر به نظر خواهد بود از توجهی که فرمودید بسیار سپاس
+
+
+
+
+
+00:00:03
+ [موسیقی] سلام در زمانی که من داشتم در بحث توربین محوری صحبت میکردم یه توربین گازه از شرکت مبنا رو انتخاب کردم و کاتالوگشو نگاه کردم و سعی کردم از روی اطلاعاتی که درباره این کاتالوگ بهمون دادند یه اطلاعات بیشتری با استفاده از محاسوب ترمینومیکی به دست بیارن ما در اون قسمت در مورد توربین صحبت مفصلی داشتیم و الان میخوایم در مورد کمپرسور با همدیگه صحبت کنیم من کاری که ابتدا میخوام بکنم اینه که به شما توجه بدم که این کمپرسور از چه قسمت‌هایی تشکیل شده و بعد همراه اینکه براتون این قسمت‌ها رو دارم تعریف می‌کنم یواش یواش بحث
+
+00:00:54
+ محاسباتش و بحث فلسفه کاریش و فیزیک مسئله رو هم سعی کنم م توضیح بدم این شکل همون کمپرسور همون توبین گاز هستش و البته ممکنه یه نسخه دیگه از همون خانواده باشه اون نسخه که اون شکل بالا بود نسخه چهارم اون توربین گاز بود اما این ممکنه یه نسخه دیگهش باشه ولی فرق نمی‌کنه تحقیق شکل عمومیشون یکی هستش و همونجور که توجه می‌فرمایید سیال از سمت چپ از دهانه ورودی وارد میشه درون کمپرسور حرکت کت می‌کنه بعد میره توی د تا اتاق احتراق که به شکل سیلو در کنارهای دونگازی قرار می‌گیرند. یکی این طرفه، طرف راست، یکی طرف چپ و بعد
+
+00:01:40
+ یه توربین داریم. جریان برمی‌گرده بعد از اینکه داغ شد برمی‌گرده تو توربین که ما در بخش توربین محوری اون رو به طور مفصل بررسی کردیم و بعد هم از مسیر خروجی خارج میشه. حالا ما میخوایم در مورد کمپرسور صحبت کنیم و ببینیم که کمپرسور به چه ترتیبی کار میکنه و چهجوری ما میتونیم برای یک جریان سیال که داره اتفاق میفته توجه کنید که یک جریان پیوسته است یعنی ما یه حبس یه چلن پیستون نداریم که جریانو حبس کنیم حجمشو کم کنیم فشارش زیاد شه بلکه جریان به صورت پیوسته داره از دهانه ورودی وارد میشه حرکت می‌کنه درون پره‌ها و از قسمت خروجی خارج میشه و به
+
+00:02:27
+ اتاق احتراق میه و بنابراین صرفاً یک کاناله که داریم روی جریان کار انجام میدیم و فشارشو بالا میبریم ولی اینکه این بالا رفتن فشار چهجوری اتفاق میفته این اون چیزیه که ما الان میخوایم دربارش تو این ویدیو به طور مفصل براتون صحبت کنیم اولین چیزی که توجهتونو بهش جلب می‌کنم این قسمت ورودی جریانه جریان اول که وارد میشه همونجور که می‌بینید اینجا به یه یه سری پره برمی‌خوره. لطفاً به موش من توجه کنید. اینجا در ابتدای ورود به یه سری پره برمیخوره که این پره‌ها فیکسن. این پره‌های اولیه فیکس هستن. اینجا [صدای خرناس] پره‌های دورانه نیستن. آنجا
+
+00:03:09
+ از فیکس یعنی این که روی روتور نیستن. اما اگر یه خورده بهتر نگاه کنیم می‌بینیم که این پره‌ها من در این پایین این قسمت پایین رو بزرگش کردم و اینجا یه خورده نشونش دادم. می‌بینیم تمام این پره‌ها یه پینی ازشون بیرون اومده و یه میله‌ای وجود داره، میله گردی وجود داره که حرکت این میله به این ترتیب به موش من توجه کنید، حرکت این میله باعث میشه که این اهرم‌هایی که هستش این پره‌ها رو بچرخونن. بنابراین ما در اولین قسمت با یه عده پره روبهرو میشیم که این پره‌ها قابلیت چرخش دارن. اینکه چرا این پره‌ها می‌چرخن؟ طبیعیه که
+
+00:03:51
+ می‌خوان جریان رو برای روتور و جاهای دیگه تنظیم کنن ولی منطق این مسئله رو من باید یه کمی جلوتر بهتون بگم. صرفاً می‌خوام بهتون بگم که این پره‌های ثابت در حقیقت جزئی از یه مرحله کمپرسور نیستن. صرفاً یک ورودی کمپرسور هستن. خیلی از کمپرسورها در ورودیشون چنین چیزی دارند و این پره‌ها وظیفه‌ای دارن که حالا کمی جلوتر خدمتتون توضیح خواهم داد. بعد از این پره‌ها ما وارد قسمت روتور میشیم و حالا این [گلویش را صاف می‌کند] روتور هست که در حقیقت کمپرسور ما مرحله کمپرسور ما از اینجا شروع میشه بنابراین مرحله [گلویش را صاف می‌کند] کمپرسور
+
+00:04:36
+ مرحله کمپرسور از دو قسمت تشکیل شده یک روتور برعکس توربین که مرحله اولش استاتور بود اینجا اولش روتوره و دو استاتور خب خب حالا می‌رسیم به روتور و میخوایم ببینیم که اونجا چه اتفاقی میفته. توجه کنید که توبین گاز رو زمین نشسته. بنابراین ساکن میخوام بگم هست. اگر توی هواپیما باشه مسلمه که یه سرعت ورودی داره ولی در دوردست فرض کنید در اینجا وی مساوی با صفره. سرعت سیال مساوی با صفر هستش ولی بعد باید یه مکشی ایجاد بشه برای اینکه سیال بیاد توی چی؟ بیاد توی کمپرسور و بعد از مراحل مختلفش عبور کنه و مثلاً فرض
+
+00:05:21
+ کنید فشاری رو که در اینجا ما می‌دونیم پی مساویه با ۱۰۰ کیلوپاسکال مثلاً می‌تونه باشه نسبت فشار کمپرسور این کمپرسور ۱۲ و۱ دهم هست و بنابراین در این مرحله خروجی یعنی در اینجا باید بتونه در اینجا باید بتونه با پی مساوی با ۱۲۱ ۱۰ کیلوپاسال فشار سکون تحویل بده سیال رو و حالا صحبت اینه که چهجوری ممکنه افزایش فشار اتفاق بیفته و چهجوری ممکنه سیال مکیده بشه به درون برای اینکه ما بتونیم این کمپرسور رو تحلیل بکنیم در اون صورت کاری که میکنیم اینه که یه سطحی روی ارتفاع میانی پره در نظر می‌گیریم مثلاً اینجا که این سطح
+
+00:06:14
+ در حقیقت یه استوانه هست که ما داریم نگاه می‌کنیم. البته شعاعش یه مقداری هرچی جلو بریم روی روتور شعاعش ممکنه فرق کنه ولی در هر صورت برای فعلاً مرحله اول و برای ابتدای کار ما می‌تونیم این رو ثابت شعاعشو در نظر بگیریم و طبیعیه که این یه استوانه‌ایه که بین د تا استوانه دیگه قرار گرفته و اون د تا استوانه دیگه یکی استوانه‌ایه که پایه‌های پره روش قرار داره و به هاب معروفه و یه استوانه دیگه دیگه هم اونیه که نوک پره روش قرار داره و اون استوانه به تیپ معروفه کاری که میکنیم اینه که میایم و ناظر ما از بالا به مسئله
+
+00:07:00
+ نگاه می‌کنه بنابراین ما از اینجا ناظرمون به مسئله نگاه می‌کنه و این چشمشه ها معمولاً به این شکل می‌کشن که می‌بینه یه سطحی هست که مره‌ها رو در حقیقت ناظره ما می‌بینه. اینور بالای کاغذ خواهد بود. این طرف پایین کاغذ خواهد بود. محورمون رو در حقیقت از بالا به پایین می‌بینه و کاری که می‌کنیم اینه که فرض می‌کنیم که این سه تا استوانه شعاعشون بی‌نهایت باشه. اگر چنین فرضی بکنیم که معمولاً تحلیل سطح صفر تو ماشین‌ها یه همچین چیزی هستش. در اون صورت این سه تا سطح رو ما به صورت ه تا صفحه صاف خواهیم دید انقدر شعارشون
+
+00:07:52
+ زیاد شده که این سه تا سل صفحه صافن بهخصوص این ارتفاع میانی پره که ما داریم اینجا نگاه می‌کنیم که این خط سفید [صدای خرناس] رنگ هستش اونوقت این کاملاً یه سطح صاف خواهد بود که پره‌ها هم تبدیل به ستون‌هایی میشن که حالا یه عدهشون که ثابتن سرشون وایسادن و یه عدهشون که متحرکن دارن مثل یه ستون‌هایین که دارن از کنار هم از بیهایت میان و بیهایت میرن و بنابراین ما وقتی از بالا به این سطح نگاه کنیم در اون صورت چنین چیزی رو میبینیم که این پره‌هامون هستن پره‌های روتورمون هستن و دارن از سمت چپ به سمت راست حرکت می‌کنن مثلاً این ها یه سرعتی
+
+00:08:39
+ هم مثل یو دارن توجه کنید که ما داریم در نقطه تر صحبت می‌کنیم مسئله راهاندازی زی وم این حرفا در بحثمون نیستش و این خطی که من اینجا کشیدم محور دستگاه هستش و اینم پره‌های روتور اصلاً پره‌های استاتور بالاتر هستن این به سمت ورودیه این طرف به سمت ورودیه و این طرف به سمت مرحله بعدیه فعلاً این فرض کنید پره‌های مرحله اول باشن که داریم درشون صحبت می‌کنیم کاری که این پره‌ها انجام میدن حرک حرکتی که این راه انجام میده مثل حرکتیه که دست ما انجام میده دری سطح ما سطح فشار خواهیم داشت که به این ترتیب هستش و در یه سط سطح مکش خواهیم داد یعنی
+
+00:09:26
+ این مثبت و منفی یعنی اینجا فشار بیشتر از فشاری که اینجا هستش بیشتر از فشار بالاست و اینجا فشار کمتر میشه در حقیقت سیال پره‌ها دارن سیال رو هول میدن به سمت داخل کمپرسور و مشابه این رو اینجا هم می‌بینیم این فشار چاره و این هم مکشه. پس اتفاقی که داره میفته اینه که حرکت پره‌ها داره باعث میشه که سیالی که این طرف پرا هست به سمت داخل کمپرسور هول داده بشه و اینجا به خاطر مکشی که اتفاق میفته سیال بیرون به سمت داخل چی بشه؟ مکیده بشه. پسخ به این سؤال که وقتی اینجا سرعت صفره چهجوری جریان سرعت می‌گیره و وارد این کمپرسور
+
+00:10:09
+ میشه؟ اینه که این پره‌های روتور با ایجاد سطوح مکش می‌تونن یک جریانی رو ایجاد کنن. مکش بسیار قویه. همونجور که شاید تو بعضی کلیپ‌ها دیده باشید وقتی موتورهای هواپیما روشن اگر جسمی در جلوی اونها قرار بگیره به راحتی به درون کمپرسور مکیده میشه. بسیار محل خطرناکی هست اونجا وقتی کمپرسورهای هوا کمپرسورهای هواپیما روشن هستن و موتور داره کار می‌کنه. مخش بسیار زیادی ایجاد می‌کنه. در هر صورت اینجا جریان سیال پس ما می‌بینیم که جریان سیال یک سرعتی اینجا می‌گیره و این جریان منتها اول از همه می‌رسه به اون پره‌هایی که یه
+
+00:10:53
+ مقدار به جریان زاویه میدن. اگر کمپرسور ما توی هواپیما باشه ما اینجا یه دیفیوزر داریم برای اینکه سرعت هواپیما زیاده و باید سرعت کم بشه خیلی وقت اکثر موارد شما یک دیفیوزر در ورودی هواپیما دارید برای اینکه سرعت رو کم کنید اما برعکس در مورد دوربینای گازی زمینی به خاطر اینکه بیرون سرعت صفره سرعتی که اینجا پیدا می‌کنه کمه و بنابراین این پره‌های اولیه شکل نازلی پیدا می‌کنن هم به جریان یه مقدار جهت میدن و هم به جریان یه مقدار سرعت میدن. بنابراین اولین چیزی که ما باهاش مواجه میشیم فرض کنید سیال ورودی به
+
+00:11:37
+ این شکل بوده باشه یه سرعتی پیدا کرده مثلاً وی و کاری که اون پره‌های اولیه میکنه اینه که سیالو یه مقدار می‌چرخونه یه مقدار هم سرعتش رو بیشتر میکنه بنابراین سیال با سرعت ویآی من از همون روشی که در مورد توربین داشتم اینجام استفاده میکنم کنم آ برای ورودی به مرحله ام بین روتور و استاتور ای خروجی مرحله ای همون مساویه با آی مرحله بعدی خواهد بود پس ما اینجا یه جریانی به دست میاریم که این جریان یه مقدار سرعت گرفته به خاطر مکشی که پره‌ها ایجاد کردن این سرعتی که گرفته اومده توی یه سری پره نازلی که جزء مراحل کمپرسور نی نیست یه مقدار سرعتش
+
+00:12:31
+ اضافه شده سرعت محوریش ممکنه همون باشه بهخاطر اینکه دبی جرمی که عوض نمیشه اون پره‌های نازلی دبی جرمی رو عوض نمی‌کنه بنابراین سرعت محوری می‌تونه ثابت بمونه ثابت می‌مونه و یه مقدار زاویه پیدا میکنه و دبلیو پیدا میکنه مؤلفه پیچشی پیدا میکنه از کجا میاره این اضافه سرعتو در جهتش کم میشه یعنی در جهت سکون بیرون همونه همون ۳۰۰ که مثلاً گفتیم و حالا این سرعت باعث میشه که اون درجه جر ورودی یه مقداری کم بشه. عملاً این سرعتی که ما اینجا داریم این سرعت همون سرعتیه که سیال به پره‌های روتور می‌رسه و سؤال اینجاست که این سیالی
+
+00:13:15
+ که اینجا می‌رسه چه اتفاقی درون پره‌های روتور براش میفته که فشارش بالا بره؟ به همین دلیل ناچارم یه مقدار براتون توضیح اضافه بدم. ما چند تا روش داریم برای اینکه فشار هوا رو بالا ببریم. بعضی وقتا ما اصطلاح ترمین میکشید که سیستم داریم یعنی یه گازی داریم درون یک فضای بسته. در نتیجه کاری که می‌کنیم اینه که حجم رو کم می‌کنیم. این گاز ماست. ما با حرکت پیستون حجم رو کم می‌کنیم و کاهش حجم معادل است با افزایش فشار. و این کار به راحتی در کمپسورهای رفت برگشتی انجام میشه ولی توجه کنید که ما در حقیقت یه مقدار
+
+00:14:00
+ گاز رو محبوس کردیم فشارشو بالا بردیم و بعد مثلاً از سوپ خروشی این رو بیرون می‌فرستیم اما [گلویش را صاف می‌کند] اگر ما یک جریان سیال داشته باشیم مثل اینجا فرض کنید یه کانالی داشته باشید که سیال داره واردش میشه با سرعت وی ۱ و میخواد با سرعت مثلاً وی د بشه و قراره [گلویش را صاف می‌کند] که پی ۱ فشار اینجا باشه پی د فشار اینجا باشه و به صورت پیوسته پی د از پی ۱ بیشتر باشه یعنی به هیچ عنوان محبوس نمی‌کنیم [گلویش را صاف می‌کند] ما یه حجم کنترل داریم من دو راه می‌شناسم برای اینکه این دو راه کاربردی می‌شناسم برای اینکه یه
+
+00:14:41
+ همچین اتفاقی بیفته راه اولی که وجود داره برای اینکه چنین اتفاقی بیفته اینه که ما یک دیفیوزر داشته باشیم و اگر ما یک دیفیوزر داشتیم به این ترتیب در آن صورت می‌تونیم ادعا کنیم که درون یک دیفیوزر اگر سرعت ورودی وی ۱ باشه که بزرگتر از وی د هست سرعت خروجیمون وی د خواهد بود که کوچک‌تر از وی ۱ هست اما اگر فشار ورودی پی ۱ باشه فشار ورودی پی د خواهد بود که بزرگتر از پی ۱ خواهد بود فشار استاتیک داریم صحبت می‌کنیم ما درباره فشار سکون صحبت نمی‌کنیم این فشار استاتیکه فشار سکون ممک ممکنه اپ کنه به خاطر اینکه درون
+
+00:15:21
+ دیفیوزر ما افت استکاکی داریم افته گردی داریم همه چی داریم ولی ابدا فشار استاتیک می‌تونه بالا بره اگر این دیفیوزر ما درست طراحی شده باشه روش دومی که وجود داره برای اینکه ما بتونیم فشار سیال رو بالا ببریم موج ضربه عمودی اگر به بخش تراکنم پذیر این ویدیو مراجعه کنید من در مورد موج ضربه عمودی هست یعنی فصل جداگانه هست که در مورد موج ضربه عمودی به طور مفصل صحبت کردم و اونجا اتفاقی که میفته اینه که اگر ما یه کانالی داشته باشیم می‌تونه در یک مقطع موج ضربه عمودی اتفاق بیفته و دقیقاً همون اتفاقاتی که اون بالا ما صحبت
+
+00:16:02
+ کردیم می‌تونه اینجا هم اتفاق بیفته یعنی اینجا وی ۱ باشه که بزرگتر از وی د هست و اینجا پی د باشه که بزرگتر از پی ۱ هست و جریان از چپ به راسته د تا نکته در موردش وجود داره که باید خدمت خدمتتون توضیح بدم اول اینکه موج ضربه عمودی فقط در شرایطی اتفاق میفته که ام ۱ بزرگتر از یک باشه یعنی باید جریان مافوق س باشه و بعد نکته دوم اینجاست که موج ضبه عمودی در یک فاصله بسیار کوتاهی اتفاق میفته یعنی ضخامت این موج در حد فاصله بین مولکولی هست و بنابراین به جای اینکه ما یک دیفیوزه‌ای داشته باشیم که یک طول مفصلی داره
+
+00:16:46
+ می‌تونیم در یه مقطع ت این افزایش فشار رو به دست بیاریم و هرچه عدد مخمون بزرگتر باشه این افزایش فشارمون بیشتر خواهد بود. بنابراین این یه روشیه که می‌تونه مفید باشه و البته در خیلی از کمپرسورهای امروزی حداقل یه مرحله و خیلی وقتا تا پ ش مرحله هم جریان‌ها مافوق هستند و کمپرسورها یا سوپرزونیکن یا حداقل ترنزونیک هستن یعنی در قسمتی از روتور جها جریان بافقته و موج اتفاق میفته و در پایه‌ها چنین اتفاقی نمیفته ولی با این وجود اینم یکی از روش‌های خیلی مشخص هست برای افزایش فشار استاتیک در جریان همونطور که گفتم اشتباه نکنید فشار سکون
+
+00:17:32
+ در چه در این مورد چه در این مورد هر دو می‌تونه افت کنه توجه کنید که چه اینجا چه اینجا ما داریم میگیم که از سرعت جریان استفاده می‌کنیم فشار رو بالا می‌بریم اما در اون چیزی که ما اینجا داشتیم سرعتی که به جریان داده بودیم از انرژی خود جریان استفاده کرده بودیم و سرعت چندانی نبود بنابراین راه حل فقط برای ورود سیال به درون کمپرسور هست اما برای افزایش فشاری که ما می‌خوایم صرفاً این سرعت انرژی کافی رو نداره و حالا ما باید از روش‌های دیگری استفاده کنیم که الان براتون توضیح میدم. به [صدای خرناس] این دیفیوزر ما توجه
+
+00:18:13
+ کنید. این دیفیوزر ما من گفتم که باید در ورودی سرعت داشته باشیم برای اینکه اون سرعت رو به فشار تبدیل کنیم. اما [گلویش را صاف می‌کند] یه نکته‌ای وجود داره و اونم اینکه هیچ فرقی نمی‌کنه اگر سیال سرعت داشته باشه و این بدنه ثابت باشه یا برعکس اگر سیال ساکن باشه یا صورتش کم باشه و این بدنه حرکت کنیم در هر صورت اختلاف سرعت و سرعت سیال نسبت به بدنه است که عامل افزایش فشار هستش پس ما با یه نکته خیلی مهمی روبه رو هستیم و اونم اینکه ما اگر این پره رو حرکت اگه این بدنه رو حرکت بدیم در اون صورت مثل اینه عیناً همینه که جریان رو سرعت داده باشه
+
+00:19:05
+ پس اتفاقی که میفته اینه که وقتی ما اینجا این سیال ورودی رو داریم و یه سری پرههایی روتور داریم که این سیال بهشون بهش وارد میشه و این پره‌ها دارن با سرعت یو حرکت می‌کنند. بنابراین ناظری که روی پره نشسته سرعت این سیال ورودی رو دیگه [گلویش را صاف می‌کند] ویآی نمی‌بینه بلکه سرعتی که اون خواهد دید یه سرعت نسبی خواهد بود. یعنی نازری که روی این پره‌ها نشسته سیال رو می‌بینه که با سرعت دبلیو داره و توجه کنید اون چیزی که ما در اینجا می‌خواستیم بهش دست پیدا کنیم اینه که به جریان سرعت بدیم اتفاق افتاده عملاً اتفاق افتاده یعنی ما
+
+00:19:53
+ سرعتمون ویآ بود و الان با توجه به حرکتی که روتورهامون دارند عملاً ناظری که روی روتور نشسته سرعت سیال رو دبلیو آ می‌بینه پس ما به به این دردی به سیال سرعت دادیم. یه جوری به سیال سرعت دادیم و حالا می‌تونیم اون سرعت رو به فشار تبدیل کنیم. بنابراین اگر فشار سیال در اینجا پی آی باشه در آن صورت در خروجی از روتور سرعتمون می‌تونه کمتر بشه. اسمشو می‌ذارم دبلیو ام و در نتیجه فشار می‌تونه بالاتر بره. پی ام که بزرگتر از پی آ هست و به این ترتیب ما به سیال افزایش فشار دادیم اگر ما دبلیو ام رو با یو جمع کنیم در آن
+
+00:20:46
+ صورت سرعت سیال نسبت به یک ناظر ساکن وی ام بود و این وی ام بزرگتر از ویآ پس کاری که ما کردیم اینه که ما اومدیم اینجا این سیال رو گرفتیم ویآی رو گرفتیم بهش سرعت دادیم درون روتور یه مقدار از اون سرعت رو به فشار تبدیل کردیم باز هم یه مقدار سرعت باقی مونده برام و حالا کاری که می‌کنیم اینه که توی یه دونه استاتور بقیه این سرعت رو به فشار تبدیل می‌کنیم پس در خروجی سرعت ما وی ای خواهد بود که اگه مرحلهمون نرمال باشه از نظر برداری وی ای و ویآ با همدیگه مساوی هستن مطابق ق تعریفی که میکنن و [گلویش را صاف می‌کند] حالا این ویآی هست
+
+00:21:38
+ که میتونه بره توی مرحله بعدی و مجدداً اشاره بیشتری بگیره. در ویدیوی بعدی من سعی می‌کنم که همین مسائل رو با عمق بیشتری تکرار بکنم و با عدد رقم این مسئله رو برای همین توربین گاز خودمون که اینجا داشتیم و توربینش رو در بخش دوربین محوری محاسبه کردیم حالا برای کمپرسور هم چیکار کنم همون محاسبات رو مشابه اون محاسبات رو تکرار کنم و رقم‌های مختلف رو لااقل برای مرحله اول کمپرسور محوری به دست بیارم ما در مورد ماده اویلر در کمپرسور در رابطه با راندمان سکون به سکون و ران سکون به استاتیک در کمپرسور و بهخصوص در مورد
+
+00:22:27
+ عکسالعمل در کمپرسور به طور مفصل صحبت خواهیم کرد ودم خواهیم از توجهی فرماید بسیار سپاسگزار
+
+
+00:00:11
+ Hello. When I was talking about the axial turbine, I chose the MGT70 ( fourth) gas turbine and said that we would try to perform some calculations on it based on the catalog information available for this turbine. We performed these calculations for the turbine, which is at the back, and now we have arrived at the compressor. There is some data that I obtained in those videos; in video 50 and in video 59. Video 50 was about the cycle and 59 was about the turbine. I am just using them now; therefore, I suggest that you
+
+00:00:52
+ definitely watch those videos, but if you do not watch the videos, that data can still be used without necessarily paying attention to how that data was obtained, though it is useful to get that data from there. Then we used this figure, another figure of the same turbine, and said that this part we see is what we usually draw for a compressor this way, and if our compressor is ideal, the process 1-2 prime happens, and if our compressor is real, the process 1-2 happens. This is really the area we have here, the
+
+00:01:30
+ control volume that my mouse is pointing to, and then the fluid passes through this compressor and goes into the combustion chamber where process 2-3 occurs; meaning it is heated at constant pressure. The physical shape is this combustion chamber with two silos, one on this side and one on that side, and then it enters the turbine, which I discussed in detail in the axial turbine section, and I solved the first stage for you; I left the other stages as an exercise for you to figure out yourself. Another figure we have of
+
+00:02:09
+ this same compressor that we can look at is this one, where the fluid enters from the left and comes through the different stages of the compressor; each stage consists of a rotor and a stator. Of course, the stators are not very clear in this first stage, but in these subsequent stages, you can see that between each rotor, there is a row of stators. Because the top part is attached to the casing, when the casing was removed, the stators were practically detached, but in any case, you can clearly see the stators of the
+
+00:02:46
+ lower half of the compressor here after every rotor; pay attention to my mouse here: there is a stator here, a stator here, a stator here, and one by one after each rotor stage, there is a stator stage. After we discussed how fluid is drawn in and suction occurs, and talked about what happens at the inlet guide vanes before the rotor— where the flow changes direction and gains some speed—we reached the stage where we covered the rotor and stator; we said that within the rotor, the flow gains velocity, which is then converted
+
+00:03:25
+ into pressure, and in the stator, the remaining velocity is converted into pressure. But for us to perform calculations for a real compressor, the best approach is to use this very compressor and discuss this stage. Once I finish talking about this stage and its requirements, I will connect it to the inlet and explain how the flow that was stationary here entered, how its velocity changed, and how it reached these stationary blades. These red parts are not stationary blades; they are actually four struts that are
+
+00:04:12
+ holding the axis of this gas turbine. There are some bearings here and some blades that actually support the weight ; there are a few here, there are not many of them, and there are some at the back that hold the rear bearing housing . The stationary blades we are talking about are here, which, as you notice, I mentioned can be rotated by a few degrees using rods. When I was solving for this gas turbine in video number 50 , I arrived at several numbers, which will serve as our starting point for
+
+00:04:54
+ solving the compressor. If you would like to know more, you can watch that video; if not, it is a good starting point anyway. This compressor has a set of general specifications that we can discuss here. The first number we reached was "m-dot," which is the mass flow rate of the compressor, equal to 55. Kilograms per second. Of course, when there is fuel in the combustion chamber, this mass flow rate becomes slightly different from the turbine mass flow rate, but we have ignored that for now and assumed these mass
+
+00:05:32
+ flow rates are the same. For the total compressor inlet temperature, we assumed T1 to be 300, which is a good number. Note that in many cases, the standard ambient temperature is 15 degrees Celsius, and many gas turbines are designed starting from this 15- degree standard. However, many gas turbines in our country do not operate at 15 degrees; they work in regions like the south, where temperatures are much higher. Consequently, almost many gas turbines were not operating at their design point. One company noticed
+
+00:06:22
+ this issue, addressed it, and adjusted the blade angles, effectively redesigning the gas turbines to operate in warmer conditions. In any case, at the compressor outlet, the total temperature at the exit of the entire compressor, meaning at this point, was equal to 687.4 Kelvin. The final point we reached was that the compressor efficiency, the polytropic efficiency of the compressor, was equal to 86 percent. We also obtained two other figures that are important; one was Va, the axial velocity through the turbine,
+
+00:07:05
+ which for now, I will assume for my compressor to be equal to 218.96, and the other thing we obtained was D at the mid-span of the blade, which was also equal to 1.83 meters. This was actually the diameter at this point at the mid-span, but I think it seems a little smaller here, though it is in that range; for the initial selection, I will choose that. Therefore, these are the parameters that provide general information about our compressor, and now we can start from this information. It is obvious that for any gas turbine
+
+00:07:57
+ calculation, you calculate a series of turbines, a series of compressors, then you encounter some problems, and this trial-and-error process continues until finally, all the numbers settle well and match each other. I want to remind you that if this is our general rotor shape, and this is the inlet streamline at the mid-span, for example, and this is the outlet streamline at the mid-span, they may or may not be equal. So, here becomes A. And here becomes Am , for example, and in our problem, which is an axial problem, these two
+
+00:08:38
+ are equal to each other. And therefore, each velocity vector will have 3 components. One is the Va component, which is the component in the axial direction, and this is the exit velocity, which in normal stages, we assume the inlet velocity and exit velocity to be equal. Essentially, that Va does not change throughout the stage . Vr components usually play a role in centrifugal machines, but in axial machines, they are usually very small or, at least, do not change. So, in practice, Vr_i and Vr_m remain constant
+
+00:09:22
+ together, or are equal to zero, and what remains is V_w, which is the tangential component and plays the main role in actually changing the momentum. Now, if we overlay these two diagrams, we will arrive at a diagram like this, in which this is V_i; that is, the inlet velocity to the rotor, the absolute inlet velocity to the rotor. This is W_i; that is, the relative inlet velocity to the rotor with respect to an observer sitting on the rotor. This is W_m; that is, the relative outlet velocity from the rotor
+
+00:10:06
+ (we denote the space between the rotor and stator with 'm'), and finally, this is V_m; that is, the absolute outlet velocity from the rotor, and we hope that the stator blades, which are placed after the rotor blades, convert this V_m into V_e, which will be equal to the V_i of the next stage. Therefore , this is the velocity diagram we are looking for, and what we do here, contrary to what we did in turbines, is that we try to first determine what properties this velocity diagram should
+
+00:10:45
+ have for this first stage that I am showing here—namely, one rotor and one stator—and then try to calculate those properties; so, those are the properties I am looking for, and I want to define and discuss them. The first property is the flow coefficient, which we denote by phi, and it is equal to V_a divided by U. And I will discuss what role this flow coefficient plays and what role our choices will have. The second is the loading coefficient, which is psi, equal to Delta_h divided by U squared. And for those friends who
+
+00:11:43
+ have not seen the turbine discussion and are watching this section independently, I will speak in such a way that it is not boring for those who have seen the turbine discussion, and those who have not seen it and are starting from here can still follow that this is equal to Delta_V_w divided by U. And the third parameter I will define will be the degree of reaction, which has two definitions; one is equal to h_m minus h_i divided by h_e minus h_i (if we define the reaction in terms of enthalpy), and the second is equal
+
+00:12:17
+ to P_m minus P_i divided by P_e minus P_i; meaning the enthalpy difference across the rotor (the static enthalpy difference across the rotor) divided by the stage static enthalpy difference, or the static pressure difference across the rotor divided by the stage static pressure difference. And what we need to do now is to start talking about these parameters we have here one by one. Well, let me discuss and define for you a series of velocity vectors that we have within this device, within this stage. Here, for example, this
+
+00:13:10
+ will be Va. Note that in this diagram we have drawn here, the axis of the device is in this direction. This part is the inlet side of the compressor, and this section here is towards the stator blades and subsequently the next stage. Now that we have defined Va, another parameter we can define is V... ...Wa, which is the tangential component of the inlet velocity. Another component we can define is Wwi, meaning the relative tangential component of the inlet. This vector here is Vwm, which is......the
+
+00:14:13
+ tangential component of the rotor outlet velocity, and this vector on this side is Wwm, which is the tangential component of the relative rotor outlet velocity. And in both cases, if you notice, this vector is Vwm, this is Vwi, and therefore this length we see above here will be delta Vw, which is also equal to delta Ww. When I was solving the turbine, I reached this conclusion; there I obtained the number for Va to be equal to 218.96 meters per second. Va is actually the velocity at which the fluid, the axial velocity at which the
+
+00:15:08
+ fluid is passing through these blades, and since I obtained this here, in the turbine I got 218. 96. Now, my first choice for the compressor will be this same value, although I will talk about it a bit. Another number I obtained was Dm at the blade mid-height, which was equal to 1.83 meters, and as my first choice, I will select these two numbers . I have made my selection. I must discuss this choice a little; because this choice is made since the machine is a power-generating device, and consequently it must rotate at 3000 RPM
+
+00:15:58
+ . As a result, we must write U equals pi D N divided by 60, which equals pi times 1.83 times 3000 divided by 60, and therefore U will be equal to 287.6 meters per second. The choice of Va should usually be a larger number, the largest possible number, for several reasons; firstly, the higher the flow velocity through this device, the smaller your device becomes, it will have less metal, and it will be cheaper to build. The fewer stages your device has and the higher the flow velocity within it, the smaller your device will
+
+00:16:50
+ be. Its stresses will be lower. The blade height will be lower, which is practically in your favor, but the problem arises when your Mach number reaches one and you encounter choking. Since we have the lowest temperature in the first stage, the speed of sound is at its lowest, so the highest Mach number is likely to occur in the early stages; as we move forward, the fluid becomes hotter and the speed of sound increases, making it less likely for the Mach number to reach sonic conditions or choking. With the choices
+
+00:17:38
+ I have made, if we calculate V divided by U, the value will be equal to 0.761. This serves as a criterion to at least know if my initial choice is very wrong or correct. I have a diagram that is very similar to the Smith diagram we had for turbines. It plays the same role, where its horizontal axis is Va divided by U and its vertical axis is the loading coefficient; to give you an idea, now Va divided by U is under 0.8, it was 0.761, which will be approximately here. It shows that we have chosen a higher speed in the
+
+00:18:26
+ higher zones, but that is fine. For now , that speed is a good speed. Since the choice of axial velocity has a direct effect on blade height, what I do is consider these as our shortest blades, which are usually 5 to 10 cm; they cannot be shorter than 5 cm, but usually around 10 cm is good. To get an estimate of what this blade height is, given the information I have, I will write the conservation of mass law for the very last turbine blade, and the law of conservation of mass states that "mdot" equals "rho A V". This is equal
+
+00:19:15
+ to "P divided by R T" times "A" times " V"; meaning "A" is the blade height in the final stage. I want to write this relation for the very end of the compressor, meaning I want to write it for here to see what my blade height will be around here, to ensure that my initial choice is not very wrong. And for the numbers I am putting in, I have not calculated them in the compressor yet; I do not know the velocities, so I do not know P and T. I will use the same stagnation conditions I have, so I
+
+00:20:01
+ will see that my "mdot" is 55 kg/s: 121 kPa divided by 0.287 times 687, (these are the numbers I wrote for you up there), multiplied by Pi, multiplied by 1.883, multiplied by A, and multiplied by the axial velocity I had chosen, which is 218. 96 meters per second; and from this relation, I conclude that my blade height will be equal to 0.72. meters, which is about 7 centimeters, not a bad number at all. So, the final conclusion is that for this first task, I will consider my flow coefficient to
+
+00:20:53
+ be exactly 0.761. I will keep my axial velocity at this value, and at the same time, the mean radius diameter of the blade as 1.8383, and my rotational speed, the linear rotational speed U— this vector right here—I will set this vector U to a value of 287. 46 meters per second for now, and then I will start calculating the load and reaction coefficients. I will continue this topic in the upcoming videos. Thank you very much for your attention.
+
+
+
+00:00:11
+ Hello. In our previous video, we successfully analyzed the MGT-70 gas turbine, version 4, and then we moved on to the compressor of this gas turbine. Using the specifications we had for this gas turbine cycle, we were able to obtain a series of specifications for the compressor, for instance, we found that its mass flow rate is 55 kilograms per second. At the air inlet, we considered 300 Kelvin, and we found that at the outlet, it is 687.4 Kelvin; this is the outlet here. We obtained some other general
+
+00:00:57
+ information as well; for example, in the first stage, we assumed the mean blade height diameter is 1.83 meters, and we considered the axial velocity to be the same as the turbine's, and we had to test it to see if it was a good axial velocity, which is still 218. 96 meters per second is an acceptable speed. Then, what we did was to say that we now want to analyze one stage; we want to analyze one of the 16 stages of this compressor. We know there is an initial set of nozzle blades, and these
+
+00:01:40
+ nozzle blades at the front, which are not clearly visible here in this figure , can be rotated around themselves by a series of mechanisms located on the outside; in fact, their angle can be adjusted so that the fluid entry angle to the rotor is acceptable for the rotor; because as you know, the velocity (V) can change, different flow rates can enter, so it is good if there are blades that can match the V-in with that rotor entry angle. In any case, we quantitatively, or at least, roughly obtained the velocity triangles for
+
+00:02:20
+ before and after the rotor, and then we combined these two diagrams and obtained the velocity triangle for the compressor. And finally, what we did was to say that we need three parameters to tell us the arrangement of this triangle; those three parameters are the flow coefficient, the loading coefficient, and the degree of reaction. Regarding the flow coefficient, our calculations were quite simple; we obtained everything from the same ideas that were used for the turbine. However, the flow coefficient was 0.761, and we did a
+
+00:03:05
+ preliminary test and saw that it is not outside the typical range for compressors, meaning it is in the range of slightly less than 0.8, which is relatively higher compared to the typical range, but in any case, this is a suitable number, and we decided to stick with this number for now to see how it will be if a problem arises in the next stage. Now the next step is to talk about the loading coefficient and see what value, what number we get for the loading coefficient; the total compressor load, or delta H, equals Cp
+
+00:03:46
+ times delta T, and we have all these numbers, which equals 1.0045. Note that because air flows through the compressor, it is not like the turbine, where the mixture was actually exhaust gas—a combination of air and combustion products—where we considered Cp to be 1.147; here 1. 0045 , which is the Cp of air, is a better estimate for Cp in the compressor, and its values will be delta T of 687 minus 300; from this value, we conclude that delta H will be 389.1 kJ/kg. Since it is stated in the compressor
+
+00:04:45
+ specifications and shown in the figure that there are 16 stages, we conclude from this that the delta H per stage will be 389.1 divided by 16, and this value will be 24. 32 kJ/kg. Note that we have assumed that the loading of the compressor stages is identical; this usually does not happen in practice. Typically, the middle stages are assigned more loading, while the initial and final stages are assigned less loading. This is due to the behavior that occurs off-design, and when I reach that stage later, I will
+
+00:05:33
+ explain the details of this behavior to you in more detail. In any case, for now, in the first step, we assume that all stages have the same loading. Since U is the same for all stages, we can calculate both the stage loading coefficient and the total loading coefficient. The total loading coefficient, meaning total delta H divided by U squared, will be equal to 389.1 times 1000 divided by 287.46 squared, which equals 4.71. This is the total loading coefficient, but if we want to calculate the stage loading
+
+00:06:22
+ coefficient, meaning delta H per stage divided by U squared per stage, it will then be equal to 4.71 divided by 16, which equals 0.294. This is the stage coefficient, and if we look at this figure to get an idea, we see it is around three-tenths here. This means the stage loading coefficient is very light. This is not strange at all, because this gas turbine is intended to have very high efficiency. This is for power generation, intended to run continuously for very long hours with high efficiency; therefore, its low
+
+00:07:02
+ stage loading coefficient is not surprising at all. Note that as the number of stages increases, the effect of the initial and final stages on each other becomes significant, and lower stage loading coefficients become appropriate. This stage loading coefficient is for a single stage, regardless of how many stages the compressor has; however, our compressor has 16 stages. We will see later that the different stages affect each other, and therefore, it is still sensitive for the stage loading coefficient to
+
+00:07:33
+ have a smaller value. Newton's second law tells us that torque equals the change in angular momentum. This shape represents our rotor, meaning the rotor of our stage. This is not the entire stage or the whole compressor. This is just the rotor. Regarding the turbine, when I drew this figure, just look at the rotor; this is also just our rotor, where we denote the inlet with "A" and the outlet with "M". Of course, in this figure, I took "RA" and "RM" to be
+
+00:08:05
+ different, which is generally the case for this compressor; however, in this compressor, we do not have a change in radius, so "RA" and "RM" are equal to each other. What causes the rotation is the change in angular momentum, which is essentially influenced by the tangential velocity "Vw". Therefore, we can write the relation that torque is equal to the change in angular momentum . Thus, RM times the flow exiting the rotor—in fact, between the rotor and stator—multiplied by VwM, minus the
+
+00:08:47
+ inlet value, which is RA times VwA; this is also the inlet angular momentum . If we multiply this by ω (angular velocity), it will give us the power. Therefore, we conclude that torque multiplied by angular velocity equals m-dot times RM times omega times VwM, minus RA times VwA. Now we can write it in this form: Work will be equal to m-dot times Um. VwM minus Ua times VwA. Since Um and Ua are equal to each other , we can now conclude from this relation that specific work (dividing everything by m-dot) will be equal to U
+
+00:10:01
+ times delta Vw. If you look at this, it tells us a very important point; practically, you see that VwA is this amount and VwM is this amount; delta Vw is this, which is this upper side. It was the same in the axial turbine, but the upper side was much larger there because the loading was much higher; here, the loading is much lower. And also delta W is W_i; this is W_e, this is W_m, and their difference will be this same length. Therefore, U times delta V_w is practically the product of the trapezoid's bottom side and its top
+
+00:10:56
+ side; and as you know, we can write it as equal to h_m minus h_i, which is the same delta h we calculated above. So, we can write that from this relationship, we know delta h; for the rotor, for just the stage, we also know U, and we can obtain the delta V_w for this stage: delta V_w is 24,320. Multiplied by 100 (to convert to Joules per kilogram) and divided by 287.46, its value will be 84.60 meters per second. And so, what we have now obtained is that in this diagram, we have essentially clarified V_i, we have
+
+00:11:54
+ clarified the flow coefficient, we have clarified delta V_w, and we have clarified the load coefficient. Now the only thing remaining is for us to determine how much this diagram shifts to the right or to the left, and that is what the degree of reaction tells us , which I will introduce to you in the next video. A point that is good for me to mention at this stage is that when I first started introducing compressors, I talked about if we had a diffuser whose inlet velocity was V_i and whose outlet velocity was V_e. In that case,
+
+00:12:41
+ we can give velocity to this inlet flow . Not by accelerating the inlet flow, but rather by moving this diffuser, we can achieve this, and thus that change in velocity will be created for us, where, for instance, W_i becomes our inlet velocity and W_e becomes our outlet velocity. Therefore, the force applied is in this direction, because the velocity changes in this manner. But when I started talking about the compressor stage, it was so-called " caskaded". One point we used was that the value of V_i was constant. Meaning,
+
+00:13:21
+ what caused the force to be applied in that diffuser is constant here, and what actually changes here is V_w. You might raise this point and ask: well, how is this different from a turbine? And the point is that the amount of rotation we give to the blade here will indicate whether this outlet cross-section (the one we show here with A_e) is larger or smaller than this inlet cross-section (which we show with A_i). This can also be practically seen in the velocity diagrams. If our rotation is so high that area A is
+
+00:14:01
+ smaller than area a, then we have a turbine blade where the flow gains speed and exerts a force on the blade in the opposite direction. But if area A is larger than area a, then the blade acts like a diffuser; the blade then exerts force on the fluid and sets it in motion. Therefore, consider the difference between these two states: here, we assume Va is constant, while here, Va is variable. Conversely, here the change in tangential velocity is zero, but here, we do have a change in tangential velocity. If there is a
+
+00:14:47
+ force here, it is in the axial direction; if there is a force here, it is in the rotational direction. Another important point to know is that this diffuser is much simpler to operate because it is symmetrical; this other diffuser is much harder to work with, as you may easily witness flow separation along this side. This means there is no reason for the fluid flow to rotate along with the blade as it moves away from the fluid, and this behavior will be much more difficult compared to the case where the diffuser
+
+00:15:27
+ walls are at least symmetrical and the fluid passes through the two sections symmetrically. Thank you for your attention. Very much appreciated.
+
+
+
+00:00:11
+ Hello. We are still continuing our analysis of the MGT70 gas turbine compressor, version four, and we are examining the first stage. We had the general specifications of the compressor here. From the catalogs provided by the company, we realized that based on the information the company gave about the gas turbine itself, such a compressor could be a suitable one. Then we said that to analyze the first stage of this compressor, we drew the velocity diagram of the rotor-stator stage, knowing that there are a series of
+
+00:00:51
+ blades before the rotor-stator that provide a specific angle to the flow entering the rotor. The next thing we did was to place the two velocity triangles together, sharing their 'U' value. We then said that we need three parameters to complete these velocity diagrams: the first is the flow coefficient, which we analyzed and obtained values for; the second is the stage loading coefficient, which we also analyzed; and the third is the degree of reaction. Now, what I need to do is define the degree of reaction for
+
+00:01:26
+ you in the compressor, tell you what a suitable degree of reaction is, and explain how, by having it, we can proceed to fully determine this velocity diagram. As you can see here, the definition of the degree of reaction is written here. So, what is the degree of reaction? The degree of reaction is defined as the static enthalpy change in the rotor to the static enthalpy change in the stage, or the static pressure change in the rotor to the static pressure change in the stage. Therefore, what it refers to is
+
+00:02:02
+ static enthalpy and static pressure. It is similar to what we had in turbines; in turbines, it was a decrease in pressure and enthalpy in the rotor relative to the stage, whereas here, it is an increase in enthalpy and pressure in the rotor relative to the stage, and both are valid and common definitions. I have another picture of this same gas turbine here, and this new picture might be a bit more expressive because you can see those nozzle blades at the beginning of the compressor that merely
+
+00:02:39
+ provide direction—that is, they provide the direction (Vi). You see it here, and then the first stage of the compressor begins from its rotor, then goes to the stator, then rotor and rotor; the stators are essentially one after another here. You can see the rotors, and the stators are attached to this casing at the bottom; the top casing of the gas turbine and compressor has been removed. Now, what we have is that we look at this stage —that is, we look at a rotor and a stator—and what I have drawn and
+
+00:03:17
+ enlarged here for you is, in fact, just a rotor. We don't have the stator here anymore because it has been removed; this before the rotor is named "i", which is the stage inlet. Between the rotor and the stator is "m", and "e" is the stage outlet, which is the stator outlet and will be the inlet to the next stage; therefore, "e" is actually the "i" of the next stage, and this is the rotor we are seeing here. I have repeated the velocity diagram I had
+
+00:03:50
+ drawn here. Note that here the rotor's velocity is pointing downward. Meaning if we want to plot the rotor velocity, the rotor is rotating in this manner. You can determine this from the direction of the blades. U is in the downward direction. The velocity is Vi, and the velocity Wi, meaning the inlet velocity to the blades corresponds to what you see here; that is, the blades are in this direction, and therefore the relative velocity entering the blades must also be in this same direction. In accordance with this,
+
+00:04:24
+ similar to the story we have, the direction also changes slightly at the rotor outlet; Wi becomes Wm. M is here, after the rotor and before the stator. M is here, the flow slows down slightly , its pressure rises, and then the absolute velocity increases to Vm, and the rest of that velocity is converted to pressure within the stator. Therefore, we have two stages of pressure increase; one stage is inside the rotor where Pi is converted to Pm, and one stage is inside the stator where, I might add, Pm is converted to
+
+00:05:01
+ Pe. Note the two definitions for the parameters we have, which we see here; that is, at this stage here, which is our rotor inlet, your fluid has Hi, Pi, and Wi; these are enthalpy, pressure, and velocity. Here we have Pm, And of course, we have Hm and Wm. This is also Its velocity, pressure, and enthalpy, and of course at the outlet, we have Pe and He. These are the three properties we have in the flow. Now, regarding whether it is pressure or enthalpy, in any case, a change in velocity causes a
+
+00:05:46
+ change in pressure or a change in enthalpy; both are present. If we write Bernoulli's law, write Bernoulli's equation for compressible flow, then we will have Bernoulli's equation for compressible flow, which tells us that (gamma/(gamma-1))*(P/rho) + (W ^ 2/2) + gz is equal to a constant value on both sides of the rotor. On both sides of the rotor, if we ignore this gz, since its value will be very small, it shows that a change in velocity leads to a change in pressure; the higher the
+
+00:06:24
+ velocity, the lower the pressure, therefore, a change in velocity results in a change in pressure. Similar to this equation, we can write the first law, the first law of thermodynamics, which states that h plus w squared over 2 is equal to a constant value. Note that we wrote this relation for adiabatic flow; it is sufficient for the flow to be adiabatic, reversibility is not required, but in any case, it shows that changes in w lead to changes in pressure and h; a decrease in w leads to an increase in pressure and
+
+00:07:02
+ enthalpy. So, these two actually play the same role. But as we said regarding turbines, you do not reach the same numbers; because you all know that TdS equals dH minus vdP, and therefore, if dS is zero, that is, only for isentropic flow are dH and dP proportional to each other. Otherwise, they are not proportional to each other , and we will have different numbers defined for these two. Now let's see what idea we should have about the degree of reaction, and what number is appropriate for it? See, the goal in a
+
+00:07:41
+ compressor is to increase pressure, and the limitation is how much pressure rise we can create in each row of blades. Because as I told you, the blades are like these channels, like diffusers, and if they diverge too much , separation occurs and we get no pressure rise at all; they just disturb the flow. Therefore, the key is to see how much pressure rise we can have in the rotor and how much we can have in the stator, and our ideal is that these two pressure rises are both equal and maximum; meaning we get the maximum
+
+00:08:15
+ possible pressure rise in the rotor or the stator. So, practically, if the ideal degree of reaction is when we want to get the maximum pressure rise in both the rotor and the stator, what should happen? It is when the same thing that happens between W1 and Wm, meaning that in the rotor, speed decreases and pressure increases, the exact same thing happens between Vm and Va; meaning that in the stator, you have the same amount of speed reduction and pressure increase. Therefore, if such a thing is to happen, that these
+
+00:08:59
+ triangles, the triangle containing Wm and W1, and this triangle be the same, in order for both to create some speed reduction and some pressure increase, the way is for our diagram to be symmetric, and the symmetry of this diagram means a reaction of 50 percent; it can practically be shown that if this diagram is symmetric, this reaction becomes 50. To show that 50% reaction leads to a symmetric trapezoid , we can write that "R" is equal to (h1 -h2) divided by (h01-h2). We can write it in this way by adding and
+
+00:09:47
+ subtracting V squared over 2 instead of (h01-h02), because we say that in a normal stage, V1 and V2 are equal in terms of vectors. Therefore, this becomes (h01-h02), meaning the stagnation enthalpy difference on both sides of the rotor or on both sides of the stage, because the stator is fixed and we have no stagnation enthalpy change in it. Here, from the first law equation we wrote above, we can write ( 1/2)*(w1 ^ 2-w2 ^ 2); and now what we can do with this relation is to expand the numerator and write U*deltaVw
+
+00:10:26
+ instead of the denominator. So the numerator will be: (w1 + w2)*(w1-w2). Plus w2*(w1-w2), and the denominator will be 2*U*deltaVw, which is (Vw1-Vw2) . Note that here the signs do not reverse; because their difference does not add up, it actually remains in the form of subtraction. Why? Because as you see here, for example, suppose V2 and V1, their difference in the w-direction is merely a negative difference; they are no longer one from this side and one from that side. Like a turbine, these are both in the same
+
+00:11:27
+ direction. And now, if we modify this term and instead of w1 write Vw1 + U and keep w2 in its place, meaning we change the term to this form and cancel these two, then we will have R equal to : 1/2, which is actually formed because this U simplifies with this U. 1/2, plus Va. Multiplied by (tan alpha1 + tan beta2)/2U; and now the way this R can be equal to 1/2 is if this term is zero; meaning alpha1 and beta2 are two equal angles in opposite directions. And if we look here, we see that exactly the same thing happens; alpha1
+
+00:12:36
+ is this and beta, what is beta2? Beta2 is this; two angles of equal magnitude in opposite directions, and therefore 50%enthalpy reaction. With the definition of enthalpy, 50%reaction means the trapezoid is, what? Symmetrical. And well, if we calculate this approximately in terms of pressure , the maximum will differ, but it will be approximately the same, close together, and we will proceed in this way. Note that sometimes, for example, assuming the inlet flow does not have these inlet blades and the inlet
+
+00:13:14
+ velocity is axial, then the reaction will no longer be 50%; it will be another number. Or if the outlet flow is supposed to be axial, that is, the meridional velocity is axial, then again the reaction will not be 50%and will be another number. This is what happens in fans, for example, if the inlet flow is axial, then the inlet velocity will be in this order, U is in this shape, and the relative velocity at the inlet is this. Now the velocity has decreased slightly, so the meridional relative velocity will be
+
+00:13:44
+ this, and thus the meridional velocity is this, and this is the change in tangential velocity which is actually equal to the tangential velocity at the outlet because the tangential velocity at the inlet is zero. If you have such a flow where those initial blades do not exist, in any case, your velocity diagram is such that it is no longer symmetrical; now your reaction is no longer 50%, you have another reaction, which in this case will be greater than 50%. Well, now I have repeated this trapezoid shape here, and since we know
+
+00:14:18
+ it is symmetrical, given the data we have, we can obtain the rest of the information. For example, we know that the change in tangential velocity is 84.6. Meters per second. All velocities are in meters per second. I will not write the unit of meters per second here anymore. U equals 287.6. I won't even put the equals sign; these black numbers are the values of the variables we are looking for. Our axial velocity is 218.96. Naturally, we can now easily ...given the information we have, obtain the tangential velocity at the
+
+00:14:55
+ inlet, which equals 101.43, and this relative tangential velocity at the inlet becomes 186. And its mirror image is on this side, meaning the tangential velocity at the outlet also becomes 186.3 and. The relative tangential velocity at the outlet becomes 101. Point three. Therefore, these are the numbers we have, now we can also obtain the values of the velocities. So, for example, assume the meridional relative velocity will be equal to the axial velocity, and this will be equal to the square root of 101.43 squared plus
+
+00:15:38
+ 218.96. Squared. Plus the trigonometry of this story; as a result, the meridional relative velocity equals the axial velocity, and this equals 241.33 meters per second. Well, continuing the story, the relative velocity at the inlet, which is actually this value, we can also obtain this value from the trigonometry in this order, from these triangles. The relative velocity at the inlet is also equal to the meridional velocity, and this will be equal to the root of 186. Point. squared plus 218.96 squared; and as a result, the value of
+
+00:16:28
+ Wa, which is equal to Vm, will be 287 .3 meters per second. We can also obtain the angles; Alpha a is equal to tangent minus 101.43 divided by 218. 96 and this equals 24.8 degrees, and likewise, we can also obtain, which is equal to Beta a, and this will be equal to tangent minus 603 divided by 218.96, which is 40.6 degrees; effectively, we have now determined this triangle. Well , I want to clarify a point here. Now notice that we have obtained this Va. What does Va mean? Va is the velocity we wanted the flow to have. The flow
+
+00:17:56
+ that was stationary outside, that is, the flow that was stationary here, we want it to be sucked in, come in here, pass through this blade, and when it reaches here, when it reaches the rotor blade, what should its absolute velocity be? It should be Va, which had a value of 241.3 meters per second. Therefore, our expectation from this suction it creates is effectively this number. Note that our blade might not be able to create such suction. We assume that the profile of this blade is such that it provides and gives us
+
+00:18:35
+ what we have calculated. Well, if the blades we have can do this and can create such suction—which apparently it must, because if it doesn't, these calculations here won't work out. Therefore, now we can, considering this suction and given that outside, here, here, outside, outside, outside the compressor, we know the stagnation temperature and pressure; it is the ambient temperature and pressure. Thus, we can calculate what the static temperature and pressure is right at the blade inlet. This is just a
+
+00:19:16
+ calculation between the stagnation point flow and the static point at point a, where we can write Ta equals 300. And therefore, Ta equals T0 minus Va squared divided by 2 Cp0, which becomes 300 minus 241.3 squared, divided by 2 times 1004.5, and the result is that Ta will be 271 Kelvin. Meaning this air that was 300 Kelvin outside the compressor, when it reaches the blades, due to the kinetic energy it has acquired, its temperature drops and becomes 271 Kelvin (minus 2 degrees Celsius), if we could measure its
+
+00:20:17
+ static temperature at the inlet point to the rotor. Similarly, we can also calculate Pa. Pi is equal to P0 times ( Ti/T0) to the power of gamma divided by gamma minus 1, which is 100 times (271) . Divided by 300 to the power of 3.5. If you set gamma to 1.4, then gamma divided by gamma minus 1 will be 3.5, and from this relation, we conclude that Pi equals 70. Point one kilopascals; therefore, the fluid entering the compressor drops in both velocity and pressure. Note that in the best-case scenario, if we bring it to a
+
+00:21:12
+ rest state, this 70 kPa pressure becomes 100 kPa again; we haven't gained anything. Unless we enter the compressor, give velocity to the flow, convert that velocity into pressure, and gradually increase its pressure. As we will see, it is possible that in the first stage, the static pressure does not exceed 100 kPa; meaning this 70 might become 80 or 90 in the first stage, the stagnation pressure increases, but the static pressure may not exceed the stagnation pressure we had here; however, it will increase in
+
+00:21:47
+ the next stage, and in any case, what will happen to the stagnation pressure? It will increase. A parameter we should measure right now (since we have all the necessary information, as we found Ti) is the Mach number at the rotor inlet; because the highest Mach number that might occur in the compressor is this Mach number, since the static temperature is the lowest there. W is equal to Vm, and this is equal to 287. Meters per second. Meters per second, and the Mach number M1 at the rotor inlet will be equal to...and this M1 we
+
+00:22:29
+ are taking is the relative velocity; because our highest velocity will be the relative velocity. Meaning if choking occurs, it happens within the rotor blades, and therefore we must measure the velocity relative to the rotor blades; this will be equal to 287 . Divided by the square root of gamma, R, T, which will be 1.4 times 287 times the temperature, which must be the static temperature that we found to be 271; And the Mach number, the relative Mach number we will obtain, becomes 0.87. Which is high, on the border of
+
+00:23:17
+ transonic flow, and is among the highest Mach numbers we can have here for a subsonic compressor. Probably because at the blade tip the velocity U increases, so it is possible for the flow to become transonic at the tip, and often in the first stage of these compressors, you also have a transonic stage; meaning it is not strange if in a real compressor the inlet Mach number to the rotor, at least in the tip sections, exceeds this number, and therefore we have a transonic flow at the rotor tip. Now that we have
+
+00:24:00
+ obtained this velocity diagram, we can note that we are assuming the stage is normal for our inlet velocity. Therefore, the inlet and outlet velocities of the stage will be vectorially equal to each other. Now, the condition at the stage outlet will be T02, which is the stagnation temperature at the outlet, equal to T01 plus the work done on it; therefore, delta H divided by CP0, which will be equal to the inlet temperature of 300 plus the compressor delta H that we previously obtained, which was 24.32.
+
+00:24:46
+ kilojoules per kilogram, divided by 1.0045 kilojoules per kilogram Kelvin, which is our CP, and from this relation , we conclude that the stagnation temperature at the outlet of the first stage equals 324. .2 Kelvin, and while the inlet stagnation temperature was 300, the outlet stagnation temperature will be 324.2. Now, since we have the outlet velocity, note that what I am doing is saying that this V1 I had in the first stage is the same velocity at the inlet, and that same velocity is exiting; therefore, when I have the
+
+00:25:32
+ outlet stagnation temperature, if I subtract this velocity from it, I get the outlet static temperature. So I can write that T2, meaning the outlet static temperature, is equal to T02, using the same relations we used before between stagnation and static, and I am using the same one here, T02 minus V squared divided by 2 CP0, and this becomes 324.2 minus 241. .3 squared divided by 2 times 1004.5. Note that if the velocity squared is in the numerator, the denominator must be in Joules per kilogram Kelvin, and from
+
+00:26:22
+ this relation, we find that T2 equals 295. .6. Similarly, we can find the pressure between the stagnation and static points at the outlet. Given that we have the polytropic efficiency, we can find P02. P02 is the compressor outlet stagnation pressure. It is equal to P01. T02 divided by T01 raised to the power of gamma divided by (gamma minus 1) and all multiplied by the compressor polytropic efficiency. Regarding the compressor polytropic efficiency, I talked to you about it in one of the previous videos in this same
+
+00:27:11
+ chapter and derived this relation. Polytropic efficiency is the only efficiency that does not change throughout the compressor, whether we write it for one stage or all stages; as long as the stages are similar, their polytropic efficiencies are also the same, which is the assumption we are making here, equal to the inlet stagnation pressure, which is 100 kPa, times 324. .2 divided by 300 and raised to the power of 3.5 multiplied by 0.86, which is the polytropic efficiency we considered, and therefore here, P02,
+
+00:28:00
+ the outlet stagnation pressure, equals 126. .6 kilopascals; now that we have the inlet stagnation pressure and the outlet stagnation pressure, we can at least determine the pressure ratio for this first stage. The total pressure ratio of the compressor. It was 12.1, but for the first stage pressure ratio, it is P_e to P_i. Which its value will be 126.3 divided by 100, which equals 1 . 263; This becomes the first stage pressure ratio. It will be; I mean, we can repeat these same calculations for
+
+00:28:52
+ the rest of the stages until we reach the sixteenth and final stage. Now that we have obtained the outlet stagnation pressure, we can also find the outlet static pressure by establishing an isentropic relationship between stagnation and static conditions, since we have the directions, we can calculate the pressures. The relationship that we need to write is that "P_e" equals "P_0e" times (T_e over T_0e) to the power of gamma divided by gamma minus one, which equals 126.3 times 295.2 divided by
+
+00:29:37
+ 324.2 to the power of 3.5, and as a result, we get that P_e equals 90.98 kilopascals. Note what I am doing, for example, when I am writing this relation for you, I am moving along a polytropic process for the stagnation points. For example, suppose this is our compressor; this is point i, this is point e ', this is point i, and this is point e. Well, these points can be stagnation points, or they can be static points. We don't have anything for now, but for instance, when I talk about stagnation, I move on this, and
+
+00:30:24
+ when I move regarding static, I am moving on the static points. Well, therefore, I am somehow assuming the efficiency is constant; thus, when I consider stagnation, like in this case, I am moving between stagnation points. When I consider static, I am moving between static points i and e, which I will do later. Now that we have obtained the inlet and outlet conditions, the reaction tells us that we have obtained the intermediate conditions because it states how much of the compression occurs in the rotor
+
+00:30:59
+ and how much occurs in the stator. Therefore, if we cancel out a Cp from the enthalpy-based definition of reaction from both the numerator and the denominator, then we will have: "R" equals "T_m" minus "T_i", divided by " T_e". Minus T_i, which will be equal to 0.5, as you know, which becomes equal to T_m that we don't know; we want to find the intermediate direction, minus 271 and divided. over 295.5 minus 271; and therefore we conclude that T_m equals 283 point 1 Kelvin. And now we
+
+00:31:51
+ can obtain the intermediate pressure on the polytropic process; meaning if we have T_m, here we have T_m, now we can also find P_m, which is the pressure passing through this point. How should we move along this process. We must move along the polytropic process, where the relationship for P_m will be P_i, for example, or we should write it between P_m and P_i or between P_m and P_e. Both give us the same answer; it becomes T_m over T_i raised to the power of gamma over gamma minus 1, and the whole fraction multiplied by the
+
+00:32:29
+ polytropic efficiency of compression. And numerically, when we substitute the numbers here, this will equal P_i; meaning 70 multiplied by 283 point 1 divided by 271 and raised to the power of 3.5, which is gamma over gamma minus 1 multiplied by. 8 and 6, and as a result we see that P_m equals 79 point 95 kilopascals. Note that we went ahead and found T_m by having R; because we had assumed R based on temperature, we had used enthalpy relationships. Now that we have found the pressure; let's
+
+00:33:26
+ go and see what the value of R for the pressure definition will be? R by the definition of pressure will equal P_m minus P_i, the pressure in the rotor, divided by P_e minus P_i, the pressure in the stage, which we know should be around 0.5; this equals 79.95 minus 70. point 1 divided by 90.98 minus 70. point 1 and the whole thing will equal 0.472. About 10 kilopascals were added in the rotor and 10 kilopascals were added in the stator. The total pressure rise is 20 kilopascals, 10 kilopascals of which was in the rotor and the rest
+
+00:34:26
+ was done in the stator. Well, in the next session, I will talk about total-to-total and total-to-static efficiencies and the efficiencies of this compressor, and I will draw the complete Mollier diagram for you. Thank you very much for your attention.
+
+
+
+
+
+
+
+00:00:11
+ Hello. In the previous video, we selected the MGT70 gas turbine, version 4, as our sample gas turbine, and we tried to derive the specifications of the blades and various stages of this gas turbine based on the data provided in the catalogs. I spoke in detail about the turbine section, specifically the axial turbine, and now we are trying to do the same for the compressor, for which we chose the first stage as a sample and started performing calculations. The key to our success in this endeavor is to be able
+
+00:00:58
+ to relate this physical shape to the velocity diagram and then to the Mollier diagram. Now that we have the data, I started with the velocity diagram, drew it for you, and obtained the various velocities on it; then I moved on to the pressure and temperature data and managed to calculate those values at different points. What I need to do now— although I have already drawn a very incomplete Mollier diagram for you—is to draw a complete one and show all these events concerning conditions and pressures on the Mollier diagram as
+
+00:01:40
+ well. Our starting point is where the fluid enters; the fluid is in the environment, outside, and its temperature is 300 Kelvin, its velocity is zero, and its pressure is 100 kPa; therefore, at the outside point, where the fluid begins moving into the compressor, the stagnation temperature and pressure are practically equal to the static temperature and pressure. Well, our entry point is somewhere outside; let's call it point A. It is a point where, in fact, the stagnation and static temperatures are the same,
+
+00:02:24
+ and the velocity is zero. But the flow then starts moving toward the inside of this compressor and passes through the stationary blades. When it reaches point A, which we identified as the inlet to the rotor blades, it has attained a velocity equal to 241.3 meters per second. Where did it get this velocity from? From the fact that its temperature has decreased; its internal energy has dropped, and that energy has been converted into kinetic energy. Therefore, if we want to discuss and plot point A, we must do it
+
+00:03:09
+ such that the pressure at this point has dropped from its stagnation value to reach another pressure, which is pressure PA, and its temperature has also decreased. For example, suppose the pressure has dropped to a value like this, where Pa equals 7.1 kPa, and the process that has occurred at this point and along this path is an irreversible process; therefore, the entropy has certainly increased slightly, and with this increase in entropy, we reach point A, where the temperature at this point is Ta, and
+
+00:03:52
+ this temperature value is 271; we calculated this and obtained a value of 271. In fact, the difference between this 271 Kelvin and 300 Kelvin is the inlet velocity, which is this distance, Vi squared divided by 2Cp0. And of course, I will write this in the corner that Vi is equal to 241. Point 3 meters per second. So, what happens is that the fluid starts from outside and reaches the point of being observed; here, its static pressure has become a lower pressure of 7.1 kPa, and its temperature is 271, a lower ambient
+
+00:04:52
+ temperature. The stagnation pressure, its temperature is still the same; of course, its stagnation pressure has also dropped somewhat; we likely ignored that drop in the problem, and we still consider Poi equal to 100 kPa. But in any case, in reality, the stagnation pressure here has likely decreased slightly because this process is irreversible. At point A, the fluid reaches its velocity Vi and arrives at the rotor blades. At the rotor blades, its relative velocity will be Wa. In fact, this is the mechanism by which
+
+00:05:36
+ its velocity increases. If we want to show this point on the Mollier diagram, the point is that although point A is currently the static condition point and the static conditions do not change , instead of this distance showing its kinetic energy, now Wa shows its kinetic energy, so if we want to calculate the relative Tai, it is very simple. Tai For relative conditions, it is equal to Ta plus Wa squared divided by 2Cp0, which if we plug in the values , equals 271 plus 287.3 squared, which is W, divided by 2 times 1004.5;
+
+00:06:39
+ therefore, the relative stagnation temperature at point A will be equal to 312.1 Kelvin. And now we can also show this same story on the figure; if this line that I drew here is 312. point 1 Kelvin, this is the relative Ta. The ( static) point is still here, but if we add this velocity to it, it becomes (To ) relative for an absolute observer, and if we add this velocity, it becomes (To) for an observer sitting on the blade, which this value I am showing here will be equal to (Wi) squared divided by 2 () cp; therefore, in this
+
+00:07:28
+ way, we have given velocity to the flow and now this is the stagnation temperature, and if we are measuring with this stagnation temperature, then it is as if our rotor blade is a fixed blade and no work is being done, nor is heat transfer occurring; therefore, between the rotor inlet and outlet, it now remains constant at a different stagnation temperature. Inside the rotor, the fluid is compressed, its pressure rises, its temperature rises, and it reaches a temperature Tm, the value of which we calculated and was
+
+00:08:05
+ equal to 283. .1 Kelvin and. For example, if the process that occurs is in this manner, then our point m () will be here, and the pressure of point m () will, for instance, lie on such a constant pressure line, which this value of pressure will be Pm. It is equal to 795. Kilopascals. Notice that we have 100 kilopascals pressure here, we have 70 kilopascals here, and here it will be nearly 80 kilopascals, which is our point m; this is the compression that has occurred in the rotor blades, the amount of pressure increase that
+
+00:09:03
+ has happened in the rotor blades, and if we want to plot point Pom as well, it suffices to go straight up from here and obtain point Pom. To calculate Pm, it is sufficient for us to write the isentropic relation between this temperature Tm and this relative Tm, and therefore the Pm that we obtain here will be the relative Pm. Note that you can have relative stagnation temperature and pressure, and you can have absolute stagnation temperature and pressure, and this depends on what velocity you add to those static
+
+00:09:48
+ conditions; and therefore, for example, here, what I can do is come and. To obtain Pom, I will take Pm at the relative Tm...that is, 312. the one-tenth I had obtained, divided by " Tm," which is now a static value and no longer relates to velocity, to consider them together and thus obtain a stagnation pressure: 112.5 kPa; which will be 112.5 kPa here, and this is the relative stagnation pressure at point " m". And now, what we need to do is the exact opposite of what we did last time
+
+00:10:37
+ . Note that for us, point "a" was defined as the point located here, before the rotor blade, and our point " m" will be right after the rotor blade; now we want to exit the rotor blade and move to absolute coordinates. At the rotor blade exit, the velocity we have has changed; note that previously at point "a," our relative velocity was Wi squared, and then when we exit the rotor blade, our relative velocity, meaning Wm, is equal to that same 241.3 m/s, because since we assumed the angle
+
+00:11:32
+ is 50, these velocities turn out equal, which is exactly what I wrote here; meaning Vi is equal to Wm, and Wi will be equal to Vm. This means that after I move my coordinates to absolute coordinates, my velocity, my exit velocity, is no longer this velocity, but a larger velocity which will be Vm. We calculated that after exiting the rotor in the stagnation state, we have T0m, which is equal to T0a, because no work is done in the stator, and its value is 324. .1 Kelvin, and now if we want to show this, in fact, the
+
+00:12:37
+ velocity we will have from point "m," now that it has come to real coordinates, we can show it in this way : the distance I am showing you here, which is the distance between point "m" and point T0m in the stagnation state, relative to the absolute observer, will be Vm squared divided by 2Cp0, where our Vm is now 287. .3 m/s. Therefore, if we add these static properties at point "m" to Vm squared divided by 2Cp0 , then we will obtain Tm, which we did previously, and we obtained 324.1
+
+00:13:24
+ Kelvin. And now our fluid enters the stator; the stator is a diffuser, and its pressure increases up to a value of 98. .9 kPa. So this pressure is the static pressure at "e," meaning the output from the stator blade, which is equal to 98.9 kPa. And if we want to show the process from M to A, our path will be like this, where this point is the exit point from the stator blade, and we also obtained its temperature, which is 295 K. And now, if we want to find the stagnation point for point A,
+
+00:14:28
+ then we must move in this manner and This point is the point OA, which will be equal to 126.3. P_OA is 126. .3 kPa, so our stagnation pressure has increased from the 100 kPa we initially considered to 126. .3 kPa, but note that in our static conditions, it only went from 70 kPa to 90.98 kPa and did not even reach that initial 100 kPa; nor did our temperature reach the initial 300. Meaning, in the first stage, although the stagnation conditions have increased, work has been done on it and its pressure (
+
+00:15:21
+ stagnation pressure) has risen, and its static pressure has also risen; however , because of what happened in the inlet path, these static conditions still remain below the initial stagnation conditions. "V_A squared divided by 2 Cp" is the distance between the static temperature at point A and the stagnation temperature at point A. Well , now when we enter the second stage, these are the inlet conditions for the second stage. Now in the second stage, the fluid already has velocity, that
+
+00:16:00
+ story of the inlet and suction and such no longer exists, and now in reality, in the second stage, this same fluid with the same velocity "V_A squared divided by 2 Cp," which is equal to 241.3, sees the rotor blade of the second stage again in a normal stage, and in observing the second stage rotor blade, its relative velocity will be 287.1; and this same story repeats again one stage higher, and this happens for 16 consecutive stages until the desired total pressure ratio of the compressor is obtained for us. The
+
+00:16:43
+ point you see here is the point between M and A where the stators are located, and they also play the role of a diffuser; the process that occurs between these two points is the process you see here, where pressure increases from the static condition; but naturally, regarding the stagnation condition, "P_OA" is slightly less than "P_OM" which we could have obtained absolutely if we had continued this until we reached "T_M." This is due to the entropy increase that occurs within
+
+00:17:17
+ the stator. Well, we have now fully mapped out the real events. Now, what we need to do is see where the ideal points are for us, and to obtain the ideal points, it is enough to first draw the isentropic line. If this pink line I drew represents an isentropic process, the intersection of pressure P_oE with this isentropic line will be point S, where the pressure is the same as P_oE, but the temperature, which we haven't obtained yet, will be 320.7 Kelvin. The method for writing it is very simple; it is enough to write the
+
+00:18:10
+ isentropic relation between O_A and this pressure line, and between O_E and this pressure line, and obtain this point accordingly. We can do the same between O_A and P_E; meaning if I extend this same line, this will be the reversible point. I will name it S 'or E', and if we calculate the temperature for this as well, it will be 292 Kelvin . I will calculate this for you a little further on. These are actually the ideal points, based on which I want to define the total-to-total and total-to-static efficiency for you. As
+
+00:19:03
+ I showed you, to obtain T_oE, it is enough to write the isentropic relation between O_A and using P_oE, which if we plug the numbers into, will be equal to 300 times (126.3 divided by 100) to the power of 0.286. And as I mentioned before, T_oE will be equal to 320.7 Kelvin. I can do the same for T_ES; if I do this, it is enough to replace P_oE with P_E, and this will be like writing the isentropic relation between these two points instead of those two points, and therefore, it will be equal to 300
+
+00:20:05
+ times (90.98 divided by 100) to the power of 0.286. From which we conclude that T_E (static temperature) is equal to 292 Kelvin. To define efficiency, we can define two types of efficiency. Of course, it is clear that regarding efficiency, the actual process remains the same; meaning we can write the actual work as: "W is equal to Cp_o times (T_E minus T_A)" and its value does not change at all. Now, however we define our ideal state, the efficiencies will differ. The first thing we can do, for instance in this
+
+00:20:58
+ figure, is to show how our ideal work will be based on stagnation conditions. Therefore, while h_e to h_i is our actual work, h_es to h_i will be our ideal work; meaning this is the ideal work required to increase the pressure between these two stagnation pressures. So, if we want to write this relationship, it will be as follows: " The total-to-total efficiency is equal to Cp0 times (Te-Ti); in the denominator, we place the actual work, and here is our ideal work." Cp0 times (Tes-Ti), again, where of course these
+
+00:21:50
+ two Cp0s cancel each other out, and if we plug in the numbers—since we have already obtained all the necessary values—it will be 320.7. Minus 300, divided by 324.2, again minus 300, and the final result will be 0.85. This becomes our total-to-total efficiency, given that we considered stagnation conditions as our ideal. However, another point we can use—and notice that I realize this has happened in this problem—is that I am actually defining an efficiency that has a complex concept. Efficiency could have
+
+00:22:42
+ had a much simpler concept, but this total-to-static efficiency in this problem is a bit more complex. But anyway, we have reached this point. The problem is like this, and as a result, I will proceed with my definition. Another point we might define is to say , well, here we have a certain amount of velocity from 'e' to 'e', and it would have been good if this velocity had converted to pressure and did not exit this stage as velocity. Certainly, in this first stage, this issue is not
+
+00:23:13
+ very important because the velocity goes into the next stage and converts to pressure; therefore, it does not matter much here. It is the final stage that no longer has any value for velocity, and it would be better if that velocity were converted to pressure as much as possible. But now for this first stage, if we want to draw it, we must say that this amount of velocity we have here, 'e', would have been better if it also converted to pressure; therefore, the efficiency we must define as "total-to-static"
+
+00:23:49
+ will be such that eta (ts) equals... obviously, the actual work does not change, but the ideal work will differ. That is the ideal work we assigned to it. Therefore, we will keep that previous part. However, what remains is the amount of velocity the fluid has at the stage exit that could have been converted into pressure; therefore, we can write this as a minus, and this is the kinetic energy that, if simplified, will be equal to; in this problem, because Ta is greater than Tr, this number will be negative, and this is
+
+00:24:36
+ not wrong; it is completely correct. What is it telling us? It is telling us that the kinetic energy we had here as exit velocity was sufficient for our pressure increase. Perhaps if we show it in a diagram, the subject will become much clearer; look, we have kinetic energy here in this section that was sufficient for this pressure increase; we had this kinetic energy at the stage inlet, and we have it at the stage outlet as well; so, this kinetic energy was enough for this pressure increase. Now we have done some work
+
+00:25:24
+ and transferred this kinetic energy from the beginning to the outlet; meaning that at the outlet, we still have kinetic energy, and this process will continue in the second, third, fourth stages, and so on. Meaning that although the fluid's kinetic energy was sufficient for that pressure increase, we still had some energy, and we preserved that sufficient kinetic energy until the final stage; in fact, it is not in this initial stage that the total-to-static efficiency can show an effective concept, but rather in the
+
+00:26:00
+ final stage where that kinetic energy must somehow be converted into pressure ; we were not supposed to reduce a portion of the fluid's energy in the first stage, lower its pressure, and have it remain low; instead, at the end , we must increase the pressure of this kinetic energy we gave to the fluid and whose pressure we reduced. And often in the last stage of axial compressors, you see two rows of stator blades, or you even see that they reduce the axial velocity a bit in the last stage so
+
+00:26:36
+ they can use this kinetic energy to increase the pressure. So, this negative total-to-static efficiency that we actually obtained here is by no means an error; rather, it is showing us a correct point, which is that we had the kinetic energy that we could convert into the pressure increase of that stage from the beginning, but we still gave energy to the fluid, converted it into pressure, and kept this kinetic energy until the final stage. Thank you very much for your attention.
+

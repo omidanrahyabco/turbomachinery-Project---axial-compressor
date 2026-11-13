@@ -1,0 +1,30 @@
+@page { size: A4; margin: 15mm 14mm 16mm 14mm; }
+:root{ --ink:#1f2328; --mut:#5f6368; --acc:#1b3a6b; --line:#d0d7de; --soft:#f3f6fa; }
+body{ font-family:"DejaVu Serif",Georgia,serif; font-size:10pt; line-height:1.38; color:var(--ink); background:#fff; max-width:none; margin:0; }
+header#title-block-header{ border-bottom:2px solid var(--acc); padding:28mm 0 8mm; margin-bottom:6mm; page-break-after:avoid;}
+h1.title{ background:none; padding:0; page-break-before:avoid; font-family:"DejaVu Sans",sans-serif; font-size:22pt; color:var(--acc); margin:0 0 4mm; }
+p.subtitle{ font-size:11pt; color:var(--mut); margin:0; }
+.cover-note{ font-size:9pt; color:var(--mut); margin-bottom:6mm;}
+h1{ font-family:"DejaVu Sans",sans-serif; font-size:15pt; color:#fff; background:var(--acc); padding:2mm 3mm; margin:7mm 0 3mm; page-break-before:always; }
+h1:first-of-type{ page-break-before:avoid; }
+h2{ font-family:"DejaVu Sans",sans-serif; font-size:11.5pt; color:var(--acc); border-bottom:1px solid var(--line); padding-bottom:1mm; margin:5mm 0 2mm; page-break-after:avoid; }
+p{ margin:1.5mm 0; }
+ol,ul{ margin:1mm 0 1.5mm; padding-left:6mm; }
+li{ margin:0.6mm 0; }
+table{ border-collapse:collapse; width:100%; margin:2mm 0 3mm; font-size:9pt; }
+tr{ page-break-inside:avoid; }
+th{ background:var(--acc); color:#fff; font-family:"DejaVu Sans",sans-serif; font-weight:600; text-align:left; padding:1.4mm 2mm; }
+td{ border-bottom:1px solid var(--line); padding:1.2mm 2mm; vertical-align:top; }
+tr:nth-child(even) td{ background:var(--soft); }
+.ans{ border-left:3.5px solid #2a7a3b; background:#eef7f0; padding:1.8mm 3mm; margin:2mm 0 3mm; font-family:"DejaVu Sans",sans-serif; font-size:9.2pt; page-break-inside:avoid;}
+.note{ display:block; border-left:3px solid #b7791f; background:#fdf6e7; padding:1.5mm 3mm; margin:1.5mm 0; font-size:9pt;}
+blockquote{ border-left:3px solid #b7791f; background:#fdf6e7; margin:2mm 0; padding:1.5mm 3mm; font-size:9pt; }
+blockquote p{ margin:0; }
+.tag{ font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:700; padding:0.4mm 1.6mm; border-radius:3px; vertical-align:middle; }
+h1 .tag{ font-size:8pt; }
+.tag.hi{ background:#c2410c; color:#fff; } .tag.md{ background:#e3e8ef; color:#1b3a6b; }
+figure{ margin:3mm 0; text-align:center; page-break-inside:avoid; }
+figure img{ max-width:100%; }
+figcaption{ font-size:8.5pt; color:var(--mut); margin-top:1mm; }
+.katex{ font-size:1.05em; }
+.katex-display{ margin:1.5mm 0; }
